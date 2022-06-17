@@ -1,2 +1,2 @@
-# 0livia99.githu.io
+# 0livia99.github.io
 Hugo 静态博客
