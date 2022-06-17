@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 鸭鸭的奇妙冒险</title>
+    <link>https://0livia99.github.io/post/</link>
+    <description>Recent content in Posts on 鸭鸭的奇妙冒险</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>monkeyWzr</copyright>
+    <lastBuildDate>Fri, 17 Jun 2022 13:24:29 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo | Github Pages &#43; cactus主题 博客搭建记录</title>
+      <link>https://0livia99.github.io/post/blogbuildrecord/</link>
+      <pubDate>Fri, 17 Jun 2022 13:24:29 +0800</pubDate>
+      
+      <guid>https://0livia99.github.io/post/blogbuildrecord/</guid>
+      <description>本次搭建基于 Windows10 环境，使用 Hugo 框架，Github Pages 网页寄存服务，主题为 cactus
+希望能借博客在互联网留下一些爪爪痕迹 &amp;gt;w&amp;lt;
+前期准备 安装 Hugo 安装 Git 创建 Github 仓库 安装并配置 Vscode 安装 Typora（可选） 开始建站 新建 Hugo 网站  新建一个文件夹用来存放 Hugo 网站的文件，例如：H:/HugoWebsite 在 HugoWebsite 文件夹内空白处点击右键，选择 Git Bush Here ，执行以下命令，新建一个 Hugo 网站  # blog 是网站文件夹名 hugo new site blog 选择 Hugo 主题  在 github.com 搜索 hugo theme ，或在 Hugo Themes 选择你喜欢的主题。此处以 cactus 举例 将选中的主题下载到本地  # 在文件夹 blog 空白处右键打开 Git Bush Here # 进入 themes 目录，如果没有这个文件夹用 mkdir -p themes 自行创建 cd themes # 下载主题到 cactus 文件夹下 git clone git@github.</description>
+    </item>
+    
+  </channel>
+</rss>

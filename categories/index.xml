@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 鸭鸭的奇妙冒险</title>
+    <link>https://0livia99.github.io/categories/</link>
+    <description>Recent content in Categories on 鸭鸭的奇妙冒险</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>monkeyWzr</copyright>
+    <lastBuildDate>Fri, 17 Jun 2022 13:24:29 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>https://0livia99.github.io/categories/2022/</link>
+      <pubDate>Fri, 17 Jun 2022 13:24:29 +0800</pubDate>
+      
+      <guid>https://0livia99.github.io/categories/2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://0livia99.github.io/categories/blog/</link>
+      <pubDate>Fri, 17 Jun 2022 13:24:29 +0800</pubDate>
+      
+      <guid>https://0livia99.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
