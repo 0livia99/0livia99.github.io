@@ -47,6 +47,15 @@ fill="currentColor">
 loading="lazy"
 alt="image"
 >&lt;/p>
+&lt;p>进阶：&lt;a class="link" href="https://zhuanlan.zhihu.com/p/626135137" target="_blank" rel="noopener"
+>使用github私有仓库和Cloudflare Workers搭建个人图床&lt;/a>
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+，优点：反向代理作为图床的仓库，开启缓存避免重复请求&lt;/p>
 &lt;h2 id="相关参考">相关参考&lt;/h2>
 &lt;p>&lt;a class="link" href="https://picgo.github.io/PicGo-Doc/" target="_blank" rel="noopener"
 >PicGo&lt;/a>
