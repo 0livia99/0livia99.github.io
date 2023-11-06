@@ -14,40 +14,21 @@ fill="currentColor">
 &lt;p>创建数据库，选 Free 方案，区域选择 &lt;code>AWS / N. Virginia (us-east-1)&lt;/code>，设置并保存好用户名和密码&lt;/p>
 &lt;p>在 &lt;code>Where would you like to connect from?&lt;/code> 这一步填 0.0.0.0，然后点 &lt;code>Add Entry&lt;/code>，最后确认创建数据库&lt;/p>
 &lt;p>进入数据库，connect - Drivers - Node.js，把实例的用户名和密码改成自己的，例如：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mongodb+srv://twikoo:fhahflanclal3o2u0@cluster0.tke1htc.mongodb.net/?retryWrites=true&amp;amp;w=majority
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="vercel-部署">Vercel 部署&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mongodb+srv://twikoo:fhahflanclal3o2u0@cluster0.tke1htc.mongodb.net/?retryWrites=true&amp;amp;w=majority
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="vercel-部署">Vercel 部署&lt;/h3>
 &lt;p>按照文档的一键部署，等待&amp;hellip;&lt;/p>
 &lt;p>在控制台 - settings - Environment Variables，添加环境变量 &lt;code>MONGODB_URI&lt;/code>，值为之前的数据库连接字符串&lt;/p>
 &lt;p>进入 Deployments , 然后在任意一项后面点击更多（三个点） , 然后点击 Redeploy , 最后点击下面的 Redeploy&lt;/p>
 &lt;p>访问 Vercel 分配的域名，如果环境配置正确，可以看到 “Twikoo 云函数运行正常” 的提示&lt;/p>
 &lt;p>因为 vercel.app 域名已经被中国政府屏蔽，大陆用户无法评论。不过没关系，在 twikoo-api &amp;gt; settings &amp;gt; domains 添加自定义域名可解决&lt;/p>
 &lt;h3 id="配置到博客">配置到博客&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">comments&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">comments&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enabled&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">provider&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">twikoo&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">twikoo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">envId&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;你的域名或vercel分配的域名&amp;gt;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>部署成功后点右下角 ↘️ 的齿轮 ⚙️ 图标，设置管理密码&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>部署成功后点右下角 ↘️ 的齿轮 ⚙️ 图标，设置管理密码&lt;/p>
 &lt;h3 id="更新">更新&lt;/h3>
 &lt;p>管理页面提示：Client version: 1.5.11， Server version: 1.6.16， 请参考 &lt;a class="link" href="https://twikoo.js.org/quick-start.html#%e7%89%88%e6%9c%ac%e6%9b%b4%e6%96%b0" target="_blank" rel="noopener"
 >版本更新&lt;/a>
@@ -75,19 +56,10 @@ fill="currentColor">
 实现 About &amp;amp;&amp;amp; Friends 页面共用评论区&lt;/p>
 &lt;/blockquote>
 &lt;p>设置主题的 Twikoo path 配置为&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># config.yaml&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># config.yaml&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">twikoo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">window.TWIKOO_MAGIC_PATH||window.location.pathname&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>在两个页面的 &lt;code>.md&lt;/code> 正文部分添加 &lt;code>&amp;lt;script&amp;gt;window.TWIKOO_MAGIC_PATH=&amp;quot;xxx&amp;quot;&amp;lt;/script&amp;gt;&lt;/code>&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在两个页面的 &lt;code>.md&lt;/code> 正文部分添加 &lt;code>&amp;lt;script&amp;gt;window.TWIKOO_MAGIC_PATH=&amp;quot;xxx&amp;quot;&amp;lt;/script&amp;gt;&lt;/code>&lt;/p>
 &lt;p>经测试生效 🎉&lt;/p>
 &lt;h2 id="disqus">Disqus&lt;/h2>
 &lt;p>选择 Disqus 是因为 Hugo 内置了它的模板，同时它对迁移的支持较好，本身功能非常齐全，比较遗憾的是从 2015 年开始被墙了&lt;/p>
@@ -115,17 +87,9 @@ fill="currentColor">
 &lt;p>选择 Category，点击 Create Site 完成注册&lt;/p>
 &lt;p>选择方案，我选 free&lt;/p>
 &lt;p>编辑博客的配置文件 config.yaml，添加 disqusShortname 设置&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># 在第 23 行左右
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># 在第 23 行左右
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">disqusShortname: YOURSITENAME
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="可选项">可选项&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="可选项">可选项&lt;/h3>
 &lt;h4 id="添加可信域">添加可信域&lt;/h4>
 &lt;p>Disqus 的站点名称是公开的，如果要防止被别人滥用，可以进行域名绑定，只允许信任的域名使用你的评论&lt;/p>
 &lt;p>在 Disqus -&amp;gt; Site -&amp;gt; Advanced 添加 Trusted Domains&lt;/p>

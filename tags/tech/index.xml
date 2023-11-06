@@ -46,21 +46,7 @@
 &lt;h2 id="蒙板">蒙板&lt;/h2>
 &lt;p>把图层重叠-选中-在顶部居中的位置点击 Use as mask&lt;/p></description></item><item><title>iTerm2 配置</title><link>https://0livia99.github.io/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://0livia99.github.io/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
 &lt;p>创建登录脚本 &lt;code>/.ssh/remote-login-vps.sh&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!/usr/bin/expect
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!/usr/bin/expect
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="nb">set&lt;/span> timeout &lt;span class="m">30&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">spawn ssh -p &lt;span class="o">[&lt;/span>lindex &lt;span class="nv">$argv&lt;/span> 0&lt;span class="o">]&lt;/span> &lt;span class="o">[&lt;/span>lindex &lt;span class="nv">$argv&lt;/span> 1&lt;span class="o">]&lt;/span>@&lt;span class="o">[&lt;/span>lindex &lt;span class="nv">$argv&lt;/span> 2&lt;span class="o">]&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">expect &lt;span class="o">{&lt;/span>
@@ -70,9 +56,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">{&lt;/span>send &lt;span class="s2">&amp;#34;[lindex &lt;/span>&lt;span class="nv">$argv&lt;/span>&lt;span class="s2"> 3]\n&amp;#34;&lt;/span>&lt;span class="o">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">interact
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>授予执行权限 &lt;code>chmod +x remote-login-vps.sh&lt;/code>&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>授予执行权限 &lt;code>chmod +x remote-login-vps.sh&lt;/code>&lt;/p>
 &lt;p>进入iTerm2 -&amp;gt; preference -&amp;gt; Profiles，创建一个Profile，在 General - Command - Send text at start 输入&lt;code>~/.ssh/remote-login-vps.sh 22 用户 ip 密码&lt;/code>&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202307181916887.webp"
 loading="lazy"
@@ -152,42 +136,19 @@ alt="image (1)"
 &lt;h2 id="搭建-shadowsocks-节点没有实操">搭建 Shadowsocks 节点(没有实操)&lt;/h2>
 &lt;p>伪装成 http&lt;/p>
 &lt;p>购买 VPS，SSH 连接&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt install shadowsocks-libev &lt;span class="c1"># 安装&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt install shadowsocks-libev &lt;span class="c1"># 安装&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl status shadowsocks-libev.service &lt;span class="c1"># 查看状态&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vim /etc/shadowsocks-libev/config.json &lt;span class="c1"># 修改配置文件，ip改为0.0.0.0&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl restart shadowsocks-libev.service &lt;span class="c1"># 重启&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">journalctl -u shadowsocks-libev.service -f &lt;span class="c1"># 查看日志&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>防火墙设置&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">ufw status &lt;span class="c1"># 查看状态&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>防火墙设置&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">ufw status &lt;span class="c1"># 查看状态&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ufw allow &lt;span class="m">8388&lt;/span> &lt;span class="c1"># 开放端口&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ufw deny &lt;span class="m">8388&lt;/span> &lt;span class="c1"># 拒绝端口&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ufw delete allow &lt;span class="m">8388&lt;/span> &lt;span class="c1"># 删除规则&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ufw disable &lt;span class="c1"># 关闭防火墙&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ufw &lt;span class="nb">enable&lt;/span> &lt;span class="c1">#启动防火墙&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>最近的心得：防火墙白名单+抗封锁 snap 版 shadowsocks-libev+OutlineVPN 客户端 非常抗揍，真香！（关键 SS 比基于 tls 的如 trojan,v2ray 速度要快）&lt;/p>
 &lt;p>我也是看了网上各路文章才有了这思路的，目前用得很好。1、防火墙 100%阻断中间人，因为只有你设置好白名单的 IP 才能连接服务器 。2、抗封锁 snap 最新版（edge 版不是 stable 版）可能在防主动识别部分针对性改动了一下，听说去了重放过滤器。3、outlineVPN 客户端听说可以合并部分流量，以减少被动识别拉清单（玄学）&lt;/p>
 &lt;/blockquote>
@@ -201,27 +162,14 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt install shadowsocks-v2ray-plugin
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">apt install shadowsocks-v2ray-plugin
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">dpkg -L
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ss-v2ray-plugin
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vim /etc/shadowsocks-libev/config.json
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+ &lt;span class="s2">&amp;#34;plugin&amp;#34;&lt;/span>: &lt;span class="s2">&amp;#34;ss-v2ray-plugin&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">+ &lt;span class="s2">&amp;#34;plugin_opts&amp;#34;&lt;/span>: &lt;span class="s2">&amp;#34;server&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl restart shadowsocks-libev.service
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="trojan-原理和搭建">Trojan 原理和搭建&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="trojan-原理和搭建">Trojan 原理和搭建&lt;/h2>
 &lt;p>伪装成 https&lt;/p>
 &lt;p>http 的问题：明文、可被篡改&lt;/p>
 &lt;p>https: http + tls&lt;/p>
@@ -245,21 +193,7 @@ fill="currentColor">
 &lt;/p>
 &lt;h2 id="vmess--tcp-tls">Vmess + TCP +TLS&lt;/h2>
 &lt;h3 id="服务器端">服务器端&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!!!重要！x-ui不要把xray版本升级到1.7.5以上，否则无法搭建vless节点！
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!!!重要！x-ui不要把xray版本升级到1.7.5以上，否则无法搭建vless节点！
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="c1">#更新软件源&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">apt update
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#启用 BBR TCP 拥塞控制算法&lt;/span>
@@ -269,93 +203,18 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">#安装x-ui：&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bash &amp;lt;&lt;span class="o">(&lt;/span>curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh&lt;span class="o">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>(安装 Nginx、申请 SSL 证书)&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>(安装 Nginx、申请 SSL 证书)&lt;/p>
 &lt;blockquote>
 &lt;p>http 站点优先，个人网盘符合单节点大流量特征&lt;/p>
 &lt;/blockquote>
 &lt;p>在浏览器搜索 &lt;code>intext:登录 Cloudreve&lt;/code>，找到一个可访问的网站作为伪装站&lt;/p>
 &lt;p>配置 Nginx&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 创建配置文件&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 创建配置文件&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">touch /etc/nginx/sites-available/vmess.conf
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 进入修改&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">vim /etc/nginx/sites-available/vmess.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>配置文件内容&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;span class="lnt">29
-&lt;/span>&lt;span class="lnt">30
-&lt;/span>&lt;span class="lnt">31
-&lt;/span>&lt;span class="lnt">32
-&lt;/span>&lt;span class="lnt">33
-&lt;/span>&lt;span class="lnt">34
-&lt;/span>&lt;span class="lnt">35
-&lt;/span>&lt;span class="lnt">36
-&lt;/span>&lt;span class="lnt">37
-&lt;/span>&lt;span class="lnt">38
-&lt;/span>&lt;span class="lnt">39
-&lt;/span>&lt;span class="lnt">40
-&lt;/span>&lt;span class="lnt">41
-&lt;/span>&lt;span class="lnt">42
-&lt;/span>&lt;span class="lnt">43
-&lt;/span>&lt;span class="lnt">44
-&lt;/span>&lt;span class="lnt">45
-&lt;/span>&lt;span class="lnt">46
-&lt;/span>&lt;span class="lnt">47
-&lt;/span>&lt;span class="lnt">48
-&lt;/span>&lt;span class="lnt">49
-&lt;/span>&lt;span class="lnt">50
-&lt;/span>&lt;span class="lnt">51
-&lt;/span>&lt;span class="lnt">52
-&lt;/span>&lt;span class="lnt">53
-&lt;/span>&lt;span class="lnt">54
-&lt;/span>&lt;span class="lnt">55
-&lt;/span>&lt;span class="lnt">56
-&lt;/span>&lt;span class="lnt">57
-&lt;/span>&lt;span class="lnt">58
-&lt;/span>&lt;span class="lnt">59
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> server &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>配置文件内容&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl"> server &lt;span class="o">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> listen &lt;span class="m">443&lt;/span> ssl&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> server_name joy.ponderduck.cc&lt;span class="p">;&lt;/span> &lt;span class="c1">#你的域名&lt;/span>
@@ -414,26 +273,13 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>测试、建立软链接、重启&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">nginx -t
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>测试、建立软链接、重启&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">nginx -t
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ln -s /etc/nginx/sites-available/vmess.conf /etc/nginx/sites-enabled/vmess.conf
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl start nginx
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># or&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">nginx -s reload
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="参考--致谢">参考 &amp;amp; 致谢&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="参考--致谢">参考 &amp;amp; 致谢&lt;/h2>
 &lt;p>&lt;a class="link" href="https://v2xtls.org/clashx%E9%85%8D%E7%BD%AEv2ray%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener"
 >ClashX 配置 V2ray 教程&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
@@ -444,23 +290,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
 &lt;p>[编译、配置 nginx,使 V2ray,Xray,Trojan,博客网站等共用 443 端口](&lt;/p></description></item><item><title>SQL 入门</title><link>https://0livia99.github.io/p/sql/</link><pubDate>Thu, 29 Jun 2023 19:13:22 +0800</pubDate><guid>https://0livia99.github.io/p/sql/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DATABASE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">test&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">创建数据库&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DATABASE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">test&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">创建数据库&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">TABLE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t1&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">body&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">varchar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">100&lt;/span>&lt;span class="p">));&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">创建表&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">记得使用\&lt;/span>&lt;span class="n">c命令切换数据库&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">USER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">test&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">WITH&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">PASSWORD&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Test#1357&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">创建用户&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">ALTER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">USER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">test&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">WITH&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">PASSWORD&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Test#2468&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">修改密码&lt;/span>&lt;span class="w">
@@ -472,9 +302,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">*/&lt;/span>&lt;span class="k">column_name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">table_name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">查询数据&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DISTINCT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">column_name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">table_name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">显示结果时去除重复值&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">列名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">标名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">WHERE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">列&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">运算符&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">值&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">条件过滤&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>操作符&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>操作符&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -553,70 +381,32 @@ fill="currentColor">
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">table_name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">ORDER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">c1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">c2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DESC&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">LASTNAME&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">ID_P&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">结果按&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">降序&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="err">字母顺序&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="err">数字顺序&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">排列&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">table_name&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">ORDER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">c1&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">c2&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DESC&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">LASTNAME&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">ID_P&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">结果按&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">降序&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="err">字母顺序&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="err">数字顺序&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">排列&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">UPDATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">表名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">SET&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">列名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">新&lt;/span>&lt;span class="n">value&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">WHERE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">列名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">sth&lt;/span>&lt;span class="p">.;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">更新数据&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">DELETE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">表名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">WHERE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">列名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">sth&lt;/span>&lt;span class="p">.;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">删除某行数据&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">DELETE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">table_name&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">删除所有行（表的结构属性索引完整）&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">TRUNCATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">TABLE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">表名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">删除表内数据&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">DROP&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">TABLE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">表名称&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">删除表&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="常用函数">常用函数&lt;/h2>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="常用函数">常用函数&lt;/h2>
 &lt;p>语法：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">列&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">表&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="avg">AVG&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">列&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">表&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="avg">AVG&lt;/h3>
 &lt;p>返回字段的平均值，不包括 null&lt;/p>
 &lt;h3 id="count">COUNT&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">返回表的记录数&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">返回表的记录数&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">DISTINCT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">列名&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">返回列的总数（除去重复的）&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">列名&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">返回列的值的总数&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="sum">SUM&lt;/h3>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="sum">SUM&lt;/h3>
 &lt;p>求和&lt;/p>
 &lt;h3 id="group-by">GROUP BY&lt;/h3>
 &lt;p>结合统计函数 COUNT，根据某些列对结果集进行分组&lt;/p>
 &lt;h3 id="having">HAVING&lt;/h3>
 &lt;p>WHERE 不能和 COUNT 一起使用，所以在统计函数前加上 HAVING&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">select&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">lastname&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="k">count&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">city&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">from&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">persons&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">select&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">lastname&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="k">count&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">city&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">from&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">persons&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">where&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">city&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;xx&amp;#39;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">group&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">lastname&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">having&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">count&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">city&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="ucaseupper--lcaselower">UCASE/UPPER &amp;amp; LCASE/LOWER&lt;/h3>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="ucaseupper--lcaselower">UCASE/UPPER &amp;amp; LCASE/LOWER&lt;/h3>
 &lt;p>把字段的值转换为大写/小写&lt;/p>
 &lt;h3 id="lenlength">LEN/LENGTH&lt;/h3>
 &lt;p>返回字段的值的长度&lt;/p>
@@ -626,41 +416,16 @@ fill="currentColor">
 &lt;p>获取当前日期时间&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://0livia99.github.io/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://0livia99.github.io/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
 &lt;h2 id="本地安装-pg">本地安装 PG&lt;/h2>
 &lt;h3 id="用-homebrew-安装">用 Homebrew 安装&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">brew install postgresql@13
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>添加环境变量&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl"># ~/.zshrc
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">brew install postgresql@13
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>添加环境变量&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl"># ~/.zshrc
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">+ # PostgreSQL
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">+ export PATH=&amp;#34;/opt/homebrew/Cellar/postgresql@13/13.11_1/bin:$PATH&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gi">+ export PGDATA=&amp;#34;/opt/homebrew/var/postgresql@13&amp;#34;
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>让修改生效 &amp;amp; 测试&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.zshrc &lt;span class="c1"># 对配置文件的修改生效&lt;/span>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>让修改生效 &amp;amp; 测试&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.zshrc &lt;span class="c1"># 对配置文件的修改生效&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">pg_ctl -V &lt;span class="c1"># 查看版本，return `pg_ctl (PostgreSQL) 13.1` &lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="dmg-安装">dmg 安装&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="dmg-安装">dmg 安装&lt;/h3>
 &lt;p>&lt;a class="link" href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" target="_blank" rel="noopener"
 >下载&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
@@ -671,72 +436,28 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
 &lt;p>修改环境变量&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># PostgreSQL&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># PostgreSQL&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">PATH&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;/Library/PostgreSQL/13/bin:&lt;/span>&lt;span class="nv">$PATH&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.zshrc
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="远程操作-pg">远程操作 PG&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="远程操作-pg">远程操作 PG&lt;/h2>
 &lt;h3 id="登录">登录&lt;/h3>
 &lt;p>允许远程登录&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">locate postgresql.conf &lt;span class="c1"># 定位文件位置&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">locate postgresql.conf &lt;span class="c1"># 定位文件位置&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># /etc/postgresql/13/main/postgresql.conf &lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">listen_addresses&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;*&amp;#39;&lt;/span> &lt;span class="c1"># 修改内容&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>添加客户端鉴定条目&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># /etc/postgresql/13/main/pg_hba.conf&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>添加客户端鉴定条目&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># /etc/postgresql/13/main/pg_hba.conf&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 允许用户在提供有效口令（md5）后从某个 IP 地址登录&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">host all all 0.0.0.0/0 md5
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">host all all ::0/0 md5
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>[可选]修改密码&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">postgres&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="c1"># alter user postgres with password &amp;#39;xxxxxxxx&amp;#39;;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[可选]修改密码&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">postgres&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="c1"># alter user postgres with password &amp;#39;xxxxxxxx&amp;#39;;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ALTER ROLE
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>最后重启 pg&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后重启 pg&lt;/p>
 &lt;p>但是不知道为啥（也许以后就知道了）我开启 5432 端口无效：ufw 命令返回结果显示已开启，防火墙规则添加了，ip 检查工具还是显示端口未开放。然后黛黛教了我端口转发&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">ssh -L 127.0.0.1:5432:127.0.0.1:5432 username@hostname
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>连上之后保持打开这个窗口，我用 Navicat 连上了数据库，第一次见到了数据库到底是啥结构……（Navicat 是什么请看 &lt;a class="link" href="https://www.navicat.com.cn/manual/online_manual/cn/navicat_16/win_manual/#/main_window" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">ssh -L 127.0.0.1:5432:127.0.0.1:5432 username@hostname
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>连上之后保持打开这个窗口，我用 Navicat 连上了数据库，第一次见到了数据库到底是啥结构……（Navicat 是什么请看 &lt;a class="link" href="https://www.navicat.com.cn/manual/online_manual/cn/navicat_16/win_manual/#/main_window" target="_blank" rel="noopener"
 >用户手册&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
@@ -749,19 +470,7 @@ fill="currentColor">
 loading="lazy"
 alt="image"
 >&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">.
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└── public &lt;span class="c1"># public 是默认的数据库模式（schema）。一个数据库可以包含多个模式，而每个模式又可以包含多个表、视图、函数等对象.schema 是一种逻辑容器，用于组织和管理数据库对象。它可以帮助在一个数据库中对不同的对象进行分类和分组&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── Tables &lt;span class="c1"># 表是存储数据的基本对象，类似于电子表格或数据库中的表格。它们由行和列组成，用于存储和组织数据&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── Views &lt;span class="c1"># 视图是虚拟表，是根据存储在其他表中的数据定义的查询结果。视图可以简化复杂查询，并提供一种方式来访问和使用数据&lt;/span>
@@ -769,24 +478,9 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── Functions &lt;span class="c1"># 函数是一段封装了特定功能的可重用代码块。在数据库中，函数用于执行特定的计算、处理数据或返回结果&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ├── Queries
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">   └── Backups
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="解决数据库增长过快的问题到底解决了没有呢">解决数据库增长过快的问题（到底解决了没有呢？）&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="解决数据库增长过快的问题到底解决了没有呢">解决数据库增长过快的问题（到底解决了没有呢？）&lt;/h3>
 &lt;p>前提：备份数据库&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;span class="lnt">9
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 备份&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 备份&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mkdir -p /pleromabackup
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">chmod &lt;span class="m">777&lt;/span> /pleromabackup
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">su - postgres
@@ -795,47 +489,11 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 检查备份目录大小&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">[&lt;/span>xxx@xxx pleromabackup&lt;span class="o">]&lt;/span>&lt;span class="c1"># du -hs&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">341M .
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>🌟 **查询所有表的行数：**创建一个 &lt;code>count_em_all&lt;/code> 函数，然后调用它获得准确的统计信息&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>🌟 **查询所有表的行数：**创建一个 &lt;code>count_em_all&lt;/code> 函数，然后调用它获得准确的统计信息&lt;/p>
 &lt;ol>
 &lt;li>创建：&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;span class="lnt">29
-&lt;/span>&lt;span class="lnt">30
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span> &lt;span class="k">TYPE&lt;/span> &lt;span class="n">table_count&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">table_name&lt;/span> &lt;span class="nb">TEXT&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">num_rows&lt;/span> &lt;span class="nb">INTEGER&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span> &lt;span class="k">TYPE&lt;/span> &lt;span class="n">table_count&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">table_name&lt;/span> &lt;span class="nb">TEXT&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">num_rows&lt;/span> &lt;span class="nb">INTEGER&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span> &lt;span class="k">OR&lt;/span> &lt;span class="k">REPLACE&lt;/span> &lt;span class="k">FUNCTION&lt;/span> &lt;span class="n">count_em_all&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="k">RETURNS&lt;/span> &lt;span class="k">SETOF&lt;/span> &lt;span class="n">table_count&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="s1">&amp;#39;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">DECLARE
@@ -865,80 +523,17 @@ alt="image"
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1"> RETURN;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">END;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s1">&amp;#39;&lt;/span> &lt;span class="k">LANGUAGE&lt;/span> &lt;span class="n">plpgsql&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;ol start="2">
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
 &lt;li>调用&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">*&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">FROM&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">count_em_all&lt;/span> &lt;span class="p">(&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="n">r&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">ORDER&lt;/span> &lt;span class="k">BY&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">r&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="n">num_rows&lt;/span> &lt;span class="k">DESC&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>结果：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;span class="lnt">29
-&lt;/span>&lt;span class="lnt">30
-&lt;/span>&lt;span class="lnt">31
-&lt;/span>&lt;span class="lnt">32
-&lt;/span>&lt;span class="lnt">33
-&lt;/span>&lt;span class="lnt">34
-&lt;/span>&lt;span class="lnt">35
-&lt;/span>&lt;span class="lnt">36
-&lt;/span>&lt;span class="lnt">37
-&lt;/span>&lt;span class="lnt">38
-&lt;/span>&lt;span class="lnt">39
-&lt;/span>&lt;span class="lnt">40
-&lt;/span>&lt;span class="lnt">41
-&lt;/span>&lt;span class="lnt">42
-&lt;/span>&lt;span class="lnt">43
-&lt;/span>&lt;span class="lnt">44
-&lt;/span>&lt;span class="lnt">45
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl"> &lt;span class="n">table_name&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="n">num_rows&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>结果：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl"> &lt;span class="n">table_name&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="n">num_rows&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">--------------------------------------------+----------
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">activities&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="mf">171772&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">objects&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="mf">120664&lt;/span>
@@ -983,63 +578,8 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">thread_mutes&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="mf">0&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">user_invite_tokens&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="mf">0&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="mf">42&lt;/span> &lt;span class="k">rows&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>🌟 &lt;strong>查询所有表的总大小&lt;/strong>（括表数据文件、索引文件、TOAST表、Free Space Map等对象的大小）&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;span class="lnt">29
-&lt;/span>&lt;span class="lnt">30
-&lt;/span>&lt;span class="lnt">31
-&lt;/span>&lt;span class="lnt">32
-&lt;/span>&lt;span class="lnt">33
-&lt;/span>&lt;span class="lnt">34
-&lt;/span>&lt;span class="lnt">35
-&lt;/span>&lt;span class="lnt">36
-&lt;/span>&lt;span class="lnt">37
-&lt;/span>&lt;span class="lnt">38
-&lt;/span>&lt;span class="lnt">39
-&lt;/span>&lt;span class="lnt">40
-&lt;/span>&lt;span class="lnt">41
-&lt;/span>&lt;span class="lnt">42
-&lt;/span>&lt;span class="lnt">43
-&lt;/span>&lt;span class="lnt">44
-&lt;/span>&lt;span class="lnt">45
-&lt;/span>&lt;span class="lnt">46
-&lt;/span>&lt;span class="lnt">47
-&lt;/span>&lt;span class="lnt">48
-&lt;/span>&lt;span class="lnt">49
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">SELECT&lt;/span> &lt;span class="n">relname&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">pg_size_pretty&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">pg_total_relation_size&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">relid&lt;/span>&lt;span class="p">))&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="n">size_mb&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>🌟 &lt;strong>查询所有表的总大小&lt;/strong>（括表数据文件、索引文件、TOAST表、Free Space Map等对象的大小）&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">SELECT&lt;/span> &lt;span class="n">relname&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">pg_size_pretty&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">pg_total_relation_size&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">relid&lt;/span>&lt;span class="p">))&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="n">size_mb&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">FROM&lt;/span> &lt;span class="n">pg_stat_user_tables&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">ORDER&lt;/span> &lt;span class="k">BY&lt;/span> &lt;span class="n">pg_total_relation_size&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">relid&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">DESC&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -1088,35 +628,10 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">chats&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="mf">16&lt;/span> &lt;span class="n">kB&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">data_migration_failed_ids&lt;/span> &lt;span class="o">|&lt;/span> &lt;span class="mf">16&lt;/span> &lt;span class="n">kB&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="mf">42&lt;/span> &lt;span class="k">rows&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>列出行数和 size 排前五的表&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>列出行数和 size 排前五的表&lt;/p>
 &lt;p>🌟 &lt;strong>activities 表&lt;/strong>&lt;/p>
 &lt;p>type 字段的所有值&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">SELECT&lt;/span> &lt;span class="k">DISTINCT&lt;/span> &lt;span class="k">data&lt;/span>&lt;span class="o">-&amp;gt;&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;type&amp;#39;&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">SELECT&lt;/span> &lt;span class="k">DISTINCT&lt;/span> &lt;span class="k">data&lt;/span>&lt;span class="o">-&amp;gt;&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;type&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">FROM&lt;/span> &lt;span class="n">activities&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">?&lt;/span>&lt;span class="k">column&lt;/span>&lt;span class="o">?&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">------------
@@ -1135,32 +650,9 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Reject&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Accept&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="mf">14&lt;/span> &lt;span class="k">rows&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>列出值是 Announce 的所有行&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">activities&lt;/span> &lt;span class="k">WHERE&lt;/span> &lt;span class="k">data&lt;/span>&lt;span class="o">-&amp;gt;&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;type&amp;#39;&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;Announce&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="mf">.&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">bin&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">pleroma_ctl&lt;/span> &lt;span class="k">database&lt;/span> &lt;span class="k">vacuum&lt;/span> &lt;span class="k">full&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>列出值是 Announce 的所有行&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">activities&lt;/span> &lt;span class="k">WHERE&lt;/span> &lt;span class="k">data&lt;/span>&lt;span class="o">-&amp;gt;&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;type&amp;#39;&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;Announce&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="mf">.&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">bin&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">pleroma_ctl&lt;/span> &lt;span class="k">database&lt;/span> &lt;span class="k">vacuum&lt;/span> &lt;span class="k">full&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="s">&amp;#34;actor&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="s">&amp;#34;data&amp;#34;&lt;/span>&lt;span class="o">-&amp;gt;&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;type&amp;#39;&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="k">type&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="s">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">o&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="s">&amp;#34;data&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">FROM&lt;/span> &lt;span class="s">&amp;#34;activities&amp;#34;&lt;/span> &lt;span class="k">AS&lt;/span> &lt;span class="n">a&lt;/span>
@@ -1170,59 +662,19 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">OR&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="s">&amp;#34;data&amp;#34;&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;to&amp;#39;&lt;/span> &lt;span class="o">?&lt;/span> &lt;span class="s1">&amp;#39;https://pleroma.your.site/users/admin&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">OR&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="s">&amp;#34;data&amp;#34;&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;cc&amp;#39;&lt;/span> &lt;span class="o">?&lt;/span> &lt;span class="s1">&amp;#39;https://pleroma.your.site/users/admin&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">ORDER&lt;/span> &lt;span class="k">BY&lt;/span> &lt;span class="n">a&lt;/span>&lt;span class="mf">.&lt;/span>&lt;span class="s">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>🌟 users 表里有很多很多只有 nickname 的用户，它们所在实例是真实的，但是 ID 不是，我把这些行删了，暂时还没出问题&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">users&lt;/span> &lt;span class="k">WHERE&lt;/span> &lt;span class="k">name&lt;/span> &lt;span class="k">IS&lt;/span> &lt;span class="k">NULL&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>🌟 users 表里有很多很多只有 nickname 的用户，它们所在实例是真实的，但是 ID 不是，我把这些行删了，暂时还没出问题&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">SELECT&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">users&lt;/span> &lt;span class="k">WHERE&lt;/span> &lt;span class="k">name&lt;/span> &lt;span class="k">IS&lt;/span> &lt;span class="k">NULL&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">DELETE&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">users&lt;/span> &lt;span class="k">WHERE&lt;/span> &lt;span class="k">name&lt;/span> &lt;span class="k">IS&lt;/span> &lt;span class="k">NULL&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>🌟 删除了一个 bot 的记录&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">SELECT&lt;/span> &lt;span class="o">*&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>🌟 删除了一个 bot 的记录&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">SELECT&lt;/span> &lt;span class="o">*&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">FROM&lt;/span> &lt;span class="n">objects&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">WHERE&lt;/span> &lt;span class="k">data&lt;/span>&lt;span class="o">-&amp;gt;&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;actor&amp;#39;&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;https://xx.ca/users/xxxBot&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">DELETE&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">objects&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">WHERE&lt;/span> &lt;span class="k">data&lt;/span>&lt;span class="o">-&amp;gt;&amp;gt;&lt;/span>&lt;span class="s1">&amp;#39;actor&amp;#39;&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;https://xx.ca/users/xxxBot&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">DELETE&lt;/span> &lt;span class="mf">485&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>🌟 删除了 activities 表 2023-06-15 之前、与我无讨论关系、书签以外的内容&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">DELETE&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">activities&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>🌟 删除了 activities 表 2023-06-15 之前、与我无讨论关系、书签以外的内容&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">DELETE&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">activities&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">WHERE&lt;/span> &lt;span class="n">id&lt;/span> &lt;span class="k">NOT&lt;/span> &lt;span class="k">IN&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="k">SELECT&lt;/span> &lt;span class="n">activity_id&lt;/span> &lt;span class="k">FROM&lt;/span> &lt;span class="n">bookmarks&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">AND&lt;/span> &lt;span class="n">inserted_at&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="s1">&amp;#39;2023-06-15&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">AND&lt;/span> &lt;span class="n">id&lt;/span> &lt;span class="k">NOT&lt;/span> &lt;span class="k">IN&lt;/span> &lt;span class="p">(&lt;/span>
@@ -1235,59 +687,8 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">DELETE&lt;/span> &lt;span class="mf">89430&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>🌟 删除了 objects 表与以上内容对应的行&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;span class="lnt">24
-&lt;/span>&lt;span class="lnt">25
-&lt;/span>&lt;span class="lnt">26
-&lt;/span>&lt;span class="lnt">27
-&lt;/span>&lt;span class="lnt">28
-&lt;/span>&lt;span class="lnt">29
-&lt;/span>&lt;span class="lnt">30
-&lt;/span>&lt;span class="lnt">31
-&lt;/span>&lt;span class="lnt">32
-&lt;/span>&lt;span class="lnt">33
-&lt;/span>&lt;span class="lnt">34
-&lt;/span>&lt;span class="lnt">35
-&lt;/span>&lt;span class="lnt">36
-&lt;/span>&lt;span class="lnt">37
-&lt;/span>&lt;span class="lnt">38
-&lt;/span>&lt;span class="lnt">39
-&lt;/span>&lt;span class="lnt">40
-&lt;/span>&lt;span class="lnt">41
-&lt;/span>&lt;span class="lnt">42
-&lt;/span>&lt;span class="lnt">43
-&lt;/span>&lt;span class="lnt">44
-&lt;/span>&lt;span class="lnt">45
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>🌟 删除了 objects 表与以上内容对应的行&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="cm">/*
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm">创建一个临时表 temp_objects
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm">来存储那些在 activities 表中找不到对应行的 objects 表的行
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cm">*/&lt;/span>
@@ -1332,25 +733,9 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">pleroma&lt;/span>&lt;span class="o">=#&lt;/span> &lt;span class="k">DROP&lt;/span> &lt;span class="k">TABLE&lt;/span> &lt;span class="n">temp_objects&lt;/span>&lt;span class="p">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">DROP&lt;/span> &lt;span class="k">TABLE&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>最后 &lt;code>su pleroma -s $SHELL -lc &amp;quot;./bin/pleroma_ctl database vacuum full &amp;quot;&lt;/code>，但是！SQL 命令有问题，删了我好多嘟，呜呜呜哭着倒地。重新看了一下数据库大小，现在倒是变得迷你了，164 MB。但是这一切真的值得吗……完全在我计划外的……&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后 &lt;code>su pleroma -s $SHELL -lc &amp;quot;./bin/pleroma_ctl database vacuum full &amp;quot;&lt;/code>，但是！SQL 命令有问题，删了我好多嘟，呜呜呜哭着倒地。重新看了一下数据库大小，现在倒是变得迷你了，164 MB。但是这一切真的值得吗……完全在我计划外的……&lt;/p>
 &lt;h3 id="常用-psql-命令">常用 psql 命令&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">psql&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">U&lt;/span> &lt;span class="n">postgres&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">指定用户连接&lt;/span>&lt;span class="n">PostgreSQL&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-postgresql" data-lang="postgresql">&lt;span class="line">&lt;span class="cl">&lt;span class="n">psql&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">U&lt;/span> &lt;span class="n">postgres&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">指定用户连接&lt;/span>&lt;span class="n">PostgreSQL&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">psql&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">d&lt;/span> &lt;span class="n">postgres&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">指定数据库连接&lt;/span>&lt;span class="n">PostgreSQL&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">psql&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">h&lt;/span> &lt;span class="mf">127.0.0.1&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">p&lt;/span> &lt;span class="mf">5432&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">U&lt;/span> &lt;span class="n">pg&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">d&lt;/span> &lt;span class="n">postgres&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">连接到本地主机（&lt;/span>&lt;span class="mf">127.0.0.1&lt;/span>&lt;span class="err">）的&lt;/span> &lt;span class="n">PostgreSQL&lt;/span> &lt;span class="err">数据库服务器，使用用户名&lt;/span> &lt;span class="n">pg&lt;/span> &lt;span class="err">连接到名为&lt;/span> &lt;span class="n">postgres&lt;/span> &lt;span class="err">的数据库&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">du&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">查看所有用户&lt;/span>
@@ -1360,9 +745,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">d&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="n">tablename&lt;/span>&lt;span class="p">}&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">查看指定表&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">SHOW&lt;/span> &lt;span class="n">data_directory&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">查看数据目录&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">q&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">退出交互查询模式&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>Nginx</title><link>https://0livia99.github.io/p/nginx-memos/</link><pubDate>Tue, 11 Apr 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/nginx-memos/</guid><description>&lt;h2 id="nginx">Nginx&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Nginx</title><link>https://0livia99.github.io/p/nginx-memos/</link><pubDate>Tue, 11 Apr 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/nginx-memos/</guid><description>&lt;h2 id="nginx">Nginx&lt;/h2>
 &lt;h3 id="几个重要的nginx文件和目录">几个重要的Nginx文件和目录&lt;/h3>
 &lt;h4 id="网站内容">网站内容&lt;/h4>
 &lt;ul>
@@ -1475,15 +858,8 @@ fill="currentColor">
 &lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/domain-bug-solve.png" alt="domain-bug-solve" style="zoom:33%;" />
 &lt;p>还是不行，一旦 push 就打回原形&lt;/p>
 &lt;p>解决方法：查阅资料发现问题在于 源码仓库 hugo-sources 的Actions 配置文件，deploy 时会自动覆盖CNAME 😭，所以在原配置文件添加：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cname: anodicseal.xyz
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>解决！🎉🎉🎉&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cname: anodicseal.xyz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>解决！🎉🎉🎉&lt;/p>
 &lt;h2 id="相关参考">相关参考&lt;/h2>
 &lt;p>&lt;a class="link" href="https://oldtang.com/2420.html" target="_blank" rel="noopener"
 >Dynadot 网站注册账户、购买域名、支付宝付款、解析域名教程&lt;/a>
@@ -1522,15 +898,8 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://0livia99.github.io/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/picture-bed/</guid><description>&lt;!-- more -->
 &lt;h2 id="安装-picgo">安装 PicGo&lt;/h2>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">brew install picgo --cask
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="创建-github-图床仓库">创建 GitHub 图床仓库&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">brew install picgo --cask
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="创建-github-图床仓库">创建 GitHub 图床仓库&lt;/h2>
 &lt;p>名称无所谓，记得勾选 README&lt;/p>
 &lt;h2 id="生成令牌token">生成令牌（Token）&lt;/h2>
 &lt;p>在 Account-Settings-Developer Settings-Personal Access Tokens 下生成（勾选 repo）并保存，我的Token：（隐藏）&lt;/p>
@@ -1544,25 +913,13 @@ alt="image-20230530234507042"
 &lt;h3 id="插件">插件&lt;/h3>
 &lt;p>Update：使用图片压缩插件 compress&lt;/p>
 &lt;p>参考 PicGo插件开发指南&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> 和 issue#2&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> 安装插件&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> /Users/username/Library/Application&lt;span class="se">\ &lt;/span>Support/picgo/
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> /Users/username/Library/Application&lt;span class="se">\ &lt;/span>Support/picgo/
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">brew install libtool automake autoconf nasm
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm cache clean --force
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 删除node_modules文件夹&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm install picgo-plugin-compress --save --ignore-scripts --registry&lt;span class="o">=&lt;/span>https://registry.npm.taobao.org
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm install --registry&lt;span class="o">=&lt;/span>https://registry.npm.taobao.org
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>重启 PicGo，在插件设置里点击⚙️，配置plugin - picgo-plugin-compress，选择压缩方式&amp;ndash; imagemin&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>重启 PicGo，在插件设置里点击⚙️，配置plugin - picgo-plugin-compress，选择压缩方式&amp;ndash; imagemin&lt;/p>
 &lt;p>最后点击⚙️，启用transformer-compress&lt;/p>
 &lt;h2 id="测试图床">测试图床&lt;/h2>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202305312359868.png"
@@ -1650,40 +1007,21 @@ fill="currentColor">
 &lt;p>创建数据库，选 Free 方案，区域选择 &lt;code>AWS / N. Virginia (us-east-1)&lt;/code>，设置并保存好用户名和密码&lt;/p>
 &lt;p>在 &lt;code>Where would you like to connect from?&lt;/code> 这一步填 0.0.0.0，然后点 &lt;code>Add Entry&lt;/code>，最后确认创建数据库&lt;/p>
 &lt;p>进入数据库，connect - Drivers - Node.js，把实例的用户名和密码改成自己的，例如：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mongodb+srv://twikoo:fhahflanclal3o2u0@cluster0.tke1htc.mongodb.net/?retryWrites=true&amp;amp;w=majority
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="vercel-部署">Vercel 部署&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">mongodb+srv://twikoo:fhahflanclal3o2u0@cluster0.tke1htc.mongodb.net/?retryWrites=true&amp;amp;w=majority
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="vercel-部署">Vercel 部署&lt;/h3>
 &lt;p>按照文档的一键部署，等待&amp;hellip;&lt;/p>
 &lt;p>在控制台 - settings - Environment Variables，添加环境变量 &lt;code>MONGODB_URI&lt;/code>，值为之前的数据库连接字符串&lt;/p>
 &lt;p>进入 Deployments , 然后在任意一项后面点击更多（三个点） , 然后点击 Redeploy , 最后点击下面的 Redeploy&lt;/p>
 &lt;p>访问 Vercel 分配的域名，如果环境配置正确，可以看到 “Twikoo 云函数运行正常” 的提示&lt;/p>
 &lt;p>因为 vercel.app 域名已经被中国政府屏蔽，大陆用户无法评论。不过没关系，在 twikoo-api &amp;gt; settings &amp;gt; domains 添加自定义域名可解决&lt;/p>
 &lt;h3 id="配置到博客">配置到博客&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">comments&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">comments&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">enabled&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">provider&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">twikoo&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">twikoo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">envId&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;你的域名或vercel分配的域名&amp;gt;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>部署成功后点右下角 ↘️ 的齿轮 ⚙️ 图标，设置管理密码&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>部署成功后点右下角 ↘️ 的齿轮 ⚙️ 图标，设置管理密码&lt;/p>
 &lt;h3 id="更新">更新&lt;/h3>
 &lt;p>管理页面提示：Client version: 1.5.11， Server version: 1.6.16， 请参考 &lt;a class="link" href="https://twikoo.js.org/quick-start.html#%e7%89%88%e6%9c%ac%e6%9b%b4%e6%96%b0" target="_blank" rel="noopener"
 >版本更新&lt;/a>
@@ -1711,19 +1049,10 @@ fill="currentColor">
 实现 About &amp;amp;&amp;amp; Friends 页面共用评论区&lt;/p>
 &lt;/blockquote>
 &lt;p>设置主题的 Twikoo path 配置为&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># config.yaml&lt;/span>&lt;span class="w">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="c"># config.yaml&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">twikoo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">window.TWIKOO_MAGIC_PATH||window.location.pathname&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>在两个页面的 &lt;code>.md&lt;/code> 正文部分添加 &lt;code>&amp;lt;script&amp;gt;window.TWIKOO_MAGIC_PATH=&amp;quot;xxx&amp;quot;&amp;lt;/script&amp;gt;&lt;/code>&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在两个页面的 &lt;code>.md&lt;/code> 正文部分添加 &lt;code>&amp;lt;script&amp;gt;window.TWIKOO_MAGIC_PATH=&amp;quot;xxx&amp;quot;&amp;lt;/script&amp;gt;&lt;/code>&lt;/p>
 &lt;p>经测试生效 🎉&lt;/p>
 &lt;h2 id="disqus">Disqus&lt;/h2>
 &lt;p>选择 Disqus 是因为 Hugo 内置了它的模板，同时它对迁移的支持较好，本身功能非常齐全，比较遗憾的是从 2015 年开始被墙了&lt;/p>
@@ -1751,17 +1080,9 @@ fill="currentColor">
 &lt;p>选择 Category，点击 Create Site 完成注册&lt;/p>
 &lt;p>选择方案，我选 free&lt;/p>
 &lt;p>编辑博客的配置文件 config.yaml，添加 disqusShortname 设置&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># 在第 23 行左右
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># 在第 23 行左右
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">disqusShortname: YOURSITENAME
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="可选项">可选项&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="可选项">可选项&lt;/h3>
 &lt;h4 id="添加可信域">添加可信域&lt;/h4>
 &lt;p>Disqus 的站点名称是公开的，如果要防止被别人滥用，可以进行域名绑定，只允许信任的域名使用你的评论&lt;/p>
 &lt;p>在 Disqus -&amp;gt; Site -&amp;gt; Advanced 添加 Trusted Domains&lt;/p>
@@ -1823,56 +1144,17 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p></description></item><item><title>Hugo | Front Matter</title><link>https://0livia99.github.io/p/hugo-front-matter/</link><pubDate>Wed, 12 Oct 2022 20:08:18 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-front-matter/</guid><description>&lt;h2 id="什么是-front-matter">什么是 Front Matter&lt;/h2>
 &lt;p>是指 .md 文件最上面的这一部分内容&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title: xxxxxx
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: 2022-10-10 09:39:50
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">type: tags
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">layout: tags=
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>每次执行 &lt;code>hugo new&lt;/code> 命令新建文章时，Hugo 会从 &lt;code>./archetypes&lt;/code> 中寻找对应的 Front Matter 模板并自动添加到新建文件的最上方&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>每次执行 &lt;code>hugo new&lt;/code> 命令新建文章时，Hugo 会从 &lt;code>./archetypes&lt;/code> 中寻找对应的 Front Matter 模板并自动添加到新建文件的最上方&lt;/p>
 &lt;p>Front Matter 里的参数定义了所在博文的外观、功能&lt;/p>
 &lt;h2 id="常用-front-matter-设置">常用 Front Matter 设置&lt;/h2>
 &lt;p>没有兴趣客制化可以复制以下代码，添加进 &lt;code>./archetypes/default.md&lt;/code> 文件&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># 使用时需删除注释和空行
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># 创建和文件名相同的文章标题
@@ -1895,9 +1177,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">coverCaption: &amp;#34;文章cover图片描述&amp;#34;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">isCJKLanguage: true
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">---
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>下面具体说明各项参数，&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>下面具体说明各项参数，&lt;/p>
 &lt;h2 id="front-matter-内容">Front Matter 内容&lt;/h2>
 &lt;table>
 &lt;thead>
