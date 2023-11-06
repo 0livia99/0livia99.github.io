@@ -767,7 +767,7 @@ alt="image"
 &lt;ul>
 &lt;li>&lt;code>/var/log/nginx/access.log&lt;/code>：如无其他设置，此文件记录了每一次的网页服务请求。&lt;/li>
 &lt;li>&lt;code>/var/log/nginx/error.log&lt;/code>：Nginx错误请求记录文件。&lt;/li>
-&lt;/ul></description></item><item><title>博客域名设置</title><link>https://0livia99.github.io/p/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://0livia99.github.io/p/domain/</guid><description>&lt;!-- more -->
+&lt;/ul></description></item><item><title>博客域名设置</title><link>https://0livia99.github.io/p/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://0livia99.github.io/p/domain/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="设置步骤">设置步骤&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -796,34 +796,34 @@ fill="currentColor">
 账号，点 Add Site，输入你的域名&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/cloudflare-add-site.png" alt="cloudflare-add-site" style="zoom: 33%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>选择免费方案&lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/cloudflare-free.png" alt="cloudflare-free" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>ping 一下目前的 &amp;lt;username&amp;gt;.github.io ，得到目标 IP 地址（Github 官方会提供 4 条 IPv4 地址）&lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/ping.png" alt="ping" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>检查 IP 是否和刚刚 ping 出来的一致（不一致的话改掉），然后点 Continue&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/check-ip.png"
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed/blog/check-ip.png"
 loading="lazy"
 alt="check-ip"
 >&lt;/p>
 &lt;ul>
 &lt;li>配置页面规则&lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/config-rules.png" alt="config-rules" style="zoom:33%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>更改 SSL 设置&lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/cloueflare-ssl-full.png" alt="cloueflare-ssl-full" style="zoom:33%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>分到了两个姓名服务器，复制下来&lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/nameservers.png" alt="nameservers" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>回到 &lt;a class="link" href="https://www.dynadot.com/" target="_blank" rel="noopener"
 >Dynadot&lt;/a>
@@ -835,31 +835,31 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 ， 点击：我的域名-管理域名-&amp;lt;域名&amp;gt;&lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/click-domain.png" alt="点击要设置的域名" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>点击：DNS设置&lt;/li>
 &lt;/ul>
-&lt;img src="../../../../Pictures/DNS%E8%AE%BE%E7%BD%AE.png" alt="DNS设置" style="zoom:50%;" />
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/dns-set.png" alt="dns-set" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>在 GitHub 的 xxx.github.io 仓库，Settings- Pages 里填上你的域名，勾选 Enforce HTTPS&lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/custom-domain.png" alt="custom-domain" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>把根目录下的 &lt;code>.yaml&lt;/code> 文件的 baseURL 改为个人域名&lt;/li>
 &lt;/ul>
 &lt;p>现在可以从域名访问博客了&lt;/p>
 &lt;h2 id="解决报错">解决报错&lt;/h2>
 &lt;p>从域名或 xxx.github.io 访问博客都会404&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/github-pages-404.png" alt="github-pages-404" style="zoom:33%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>在公开仓库的 Settings-Pages 里查看，发现设置的个人域名消失了，又变回了 falasool.github.io。搜索相关问题发现，有人反馈每次 push 之后都需要重新设置个人域名。&lt;/p>
 &lt;p>我试了一下也是这样：设置域名后会自动创建 CNAME 文件，此时从域名或 xxx.github.io 都能访问博客。push 操作后 CNAME 又没了，个人域名或 xxx.github.io 都返回404 😮‍💨&lt;/p>
 &lt;p>尝试：在 Cloudflare 里把 DNS 类型改成 A 和 CNAME&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/domain-bug-solve.png" alt="domain-bug-solve" style="zoom:33%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>还是不行，一旦 push 就打回原形&lt;/p>
 &lt;p>解决方法：查阅资料发现问题在于 源码仓库 hugo-sources 的Actions 配置文件，deploy 时会自动覆盖CNAME 😭，所以在原配置文件添加：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cname: anodicseal.xyz
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>解决！🎉🎉🎉&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">cname&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">anodicseal.xyz&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>解决！🎉🎉🎉&lt;/p>
 &lt;h2 id="相关参考">相关参考&lt;/h2>
 &lt;p>&lt;a class="link" href="https://oldtang.com/2420.html" target="_blank" rel="noopener"
 >Dynadot 网站注册账户、购买域名、支付宝付款、解析域名教程&lt;/a>
@@ -880,7 +880,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
 &lt;p>&lt;a class="link" href="https://ruanyifeng.com/blog/2016/06/dns.html" target="_blank" rel="noopener"
-> DNS 原理入门&lt;/a>
+>DNS 原理入门&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
 &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
@@ -896,14 +896,13 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://0livia99.github.io/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/picture-bed/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://0livia99.github.io/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/picture-bed/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="安装-picgo">安装 PicGo&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">brew install picgo --cask
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install picgo --cask
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="创建-github-图床仓库">创建 GitHub 图床仓库&lt;/h2>
 &lt;p>名称无所谓，记得勾选 README&lt;/p>
 &lt;h2 id="生成令牌token">生成令牌（Token）&lt;/h2>
-&lt;p>在 Account-Settings-Developer Settings-Personal Access Tokens 下生成（勾选 repo）并保存，我的Token：（隐藏）&lt;/p>
-&lt;p hidden>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&lt;/p>
+&lt;p>在 Account-Settings-Developer Settings-Personal Access Tokens 下生成（勾选 repo）并保存&lt;/p>
 &lt;h2 id="配置-picgo">配置 PicGo&lt;/h2>
 &lt;p>自定义域名是：&lt;code>https://cdn.jsdelivr.net/gh/&amp;lt;github用户名&amp;gt;/&amp;lt;图床仓库名&amp;gt;@&amp;lt;仓库版本号&amp;gt;/&lt;/code>&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blogimage-20230530234507042.png"
@@ -991,7 +990,7 @@ fill="currentColor">
 &amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- more -->
+&lt;/div></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;p>Update：用过 Cataus、Disqus，Cataus 和同名主题配合起来很可爱，用了一段时间 Disqus 后对它的 UI 不太满意，再加上强制登录比较恼人，就换成象友推荐的 Twikoo 试试&lt;/p>
 &lt;h2 id="twikoo">Twikoo&lt;/h2>
 &lt;h3 id="设置数据库-mongodb">设置数据库 MongoDB&lt;/h3>
@@ -1097,7 +1096,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
 &lt;h2 id="相关参考">相关参考&lt;/h2>
-&lt;p>&lt;font size="2">感谢前人的耕耘和分享，希望本文也能给你带来一些帮助 ❤️&lt;/font>&lt;/p>
+&lt;p>&lt;!-- raw HTML omitted -->感谢前人的耕耘和分享，希望本文也能给你带来一些帮助 ❤️&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>&lt;a class="link" href="https://thirdshire.com/post/twikoo-tutorial/" target="_blank" rel="noopener"
 >在静态博客里添加 Twikoo 评论系统，并配置邮箱和 TG 通知&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
@@ -1272,7 +1271,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
 &lt;h2 id="相关参考">相关参考&lt;/h2>
-&lt;p>&lt;font size="2">感谢前人的耕耘和分享，希望本文也能给你带来一些帮助 ❤️&lt;/font>&lt;/p>
+&lt;p>&lt;!-- raw HTML omitted -->感谢前人的耕耘和分享，希望本文也能给你带来一些帮助 ❤️&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>&lt;a class="link" href="https://blog.genesu.me/2020/09/hugo-front-matter/" target="_blank" rel="noopener"
 >貼身打造個人部落格 - 02. 文章 Front Matter&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>comment system on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/tags/comment-system/</link><description>Recent content in comment system on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Fri, 14 Oct 2022 19:12:42 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/tags/comment-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- more -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>comment system on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/tags/comment-system/</link><description>Recent content in comment system on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Fri, 14 Oct 2022 19:12:42 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/tags/comment-system/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;p>Update：用过 Cataus、Disqus，Cataus 和同名主题配合起来很可爱，用了一段时间 Disqus 后对它的 UI 不太满意，再加上强制登录比较恼人，就换成象友推荐的 Twikoo 试试&lt;/p>
 &lt;h2 id="twikoo">Twikoo&lt;/h2>
 &lt;h3 id="设置数据库-mongodb">设置数据库 MongoDB&lt;/h3>
@@ -104,7 +104,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
 &lt;h2 id="相关参考">相关参考&lt;/h2>
-&lt;p>&lt;font size="2">感谢前人的耕耘和分享，希望本文也能给你带来一些帮助 ❤️&lt;/font>&lt;/p>
+&lt;p>&lt;!-- raw HTML omitted -->感谢前人的耕耘和分享，希望本文也能给你带来一些帮助 ❤️&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>&lt;a class="link" href="https://thirdshire.com/post/twikoo-tutorial/" target="_blank" rel="noopener"
 >在静态博客里添加 Twikoo 评论系统，并配置邮箱和 TG 通知&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"

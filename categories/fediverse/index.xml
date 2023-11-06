@@ -478,7 +478,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">d&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="n">tablename&lt;/span>&lt;span class="p">}&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">查看指定表&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">SHOW&lt;/span> &lt;span class="n">data_directory&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">查看数据目录&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">q&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">退出交互查询模式&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- more -->
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="前置步骤">前置步骤&lt;/h2>
 &lt;h3 id="安装依赖">安装依赖&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 更新&lt;/span>
@@ -489,7 +489,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="postgresql-性能调优">&lt;del>PostgreSQL 性能调优&lt;/del>&lt;/h3>
 &lt;p>&lt;del>根据 pgTune 修改配置文件&lt;/del>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">vim /etc/postgresql/13/main/postgresql.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p hidden>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&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>重启 PostgreSQL&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">systemctl restart postgresql
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="安装-pleroma">安装 Pleroma&lt;/h2>
@@ -647,7 +647,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://0livia99.github.io/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/buy-and-set-ups/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://0livia99.github.io/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/buy-and-set-ups/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="购买服务器">购买服务器&lt;/h2>
 &lt;p>选 intel - 美西机房 - Debian11 - 1C1G 25G SSD 1TB&lt;/p>
 &lt;p>添加 SSH，生成密钥&lt;/p>
@@ -795,7 +795,7 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 已记录的内容不再重复&lt;/p>
-&lt;!-- more -->
+&lt;!-- raw HTML omitted -->
 &lt;h2 id="数据库相关">数据库相关&lt;/h2>
 &lt;ol>
 &lt;li>登录数据库，报错：psql: error: FATAL: Peer authentication failed for user &amp;ldquo;postgres&amp;rdquo;&lt;/li>
@@ -1179,7 +1179,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 访问 Pleroma，比如
 curl -v http://127.0.0.1:4000/api/v1/instance&lt;/p>
-&lt;p>NginX负责把外部的连接请求转发到 127.0.0.1:4000，得到响应后转发回去 &lt;img src="https://bucket.alive.bar/cache/custom_emojis/images/000/163/820/original/7ffe1103db94842e.png" alt=":ablobpanic:" style="zoom: 33%;" />&lt;/p>
+&lt;p>NginX负责把外部的连接请求转发到 127.0.0.1:4000，得到响应后转发回去 &lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>如果你用 netstat 没发现 4000 端口的程序，说明 Pleroma 挂了，该去检查 Pleroma 的错误日志 &lt;img src="https://bucket.alive.bar/cache/custom_emojis/images/000/047/971/original/c7b0bea715cd48c1.png"
 loading="lazy"
 alt=":ablobsweats:"
@@ -1365,12 +1365,12 @@ fill="currentColor">
 &lt;p>（即使没有这个问题，买大陆节点的服务建站也是一种自杀行为）&lt;/p>
 &lt;h3 id="注册">注册&lt;/h3>
 &lt;p>注册Vultr 账号，充值&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey1.png"
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed/blog/misskey1.png"
 loading="lazy"
 alt="image-20221120012614543"
 >&lt;/p>
 &lt;h3 id="创建-vps">创建 VPS&lt;/h3>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/image-20221120012203832.png"
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed/blog/image-20221120012203832.png"
 loading="lazy"
 alt="image-20221120012203832"
 >&lt;/p>
@@ -1400,31 +1400,31 @@ alt="image-20221120012203832"
 &lt;p>添加 SSH Keys&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey38.png" alt="image-20221120135314470" style="zoom:25%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>打开命令行，输入&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh-keygen -t rsa -b &lt;span class="m">4096&lt;/span> -C &lt;span class="s2">&amp;#34;Example comment&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在这行提示后面输入你想要保存密钥的路径&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Generating public/private rsa key pair.
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Generating public/private rsa key pair.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Enter file in which to save the key (/home/example_user/.ssh/id_rsa):
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>我输入（uu是我的电脑用户名）&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">/home/uu/.ssh/id_rsa_vultr
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">/home/uu/.ssh/id_rsa_vultr
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>所以在 &lt;code>/.ssh&lt;/code> 目录下可以找到 &lt;code>id_rsa_vultr&lt;/code> 和 &lt;code>id_rsa_vultr.pub&lt;/code> 文件，它们分别是私钥和公钥&lt;/p>
 &lt;p>接下来要把公钥内容添加到 vultr 去&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 进入.ssh 目录&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> .ssh
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 打印文件内容&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cat id_rsa_vultr.pub
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey39.png" alt="image-20221120140350349" style="zoom:30%;" />
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>这时底部付款栏应该显示 &lt;code>$5.00/month&lt;/code> ，点击 &lt;code>Deploy Now&lt;/code> 确认创建服务器，等待一会，等 Status 变成 Running 就好了&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey2-1.png"
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed/blog/misskey2-1.png"
 loading="lazy"
 alt="image-20221120012909994"
 >&lt;/p>
 &lt;p>点击刚刚创建的 VPS，看到如下界面。&lt;/p>
 &lt;p>左下角的 IP Address、Username、Password 是待会连接服务器的时候，要用到的 SSH 连接信息&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey3.png"
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed/blog/misskey3.png"
 loading="lazy"
 alt="image-20221120013010174"
 >&lt;/p>
@@ -1439,7 +1439,7 @@ alt="image-20221120013010174"
 &lt;p>服务器创建完成&lt;/p>
 &lt;h3 id="检查-ip">检查 IP&lt;/h3>
 &lt;p>Ping 一下 IP&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey4.png"
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed/blog/misskey4.png"
 loading="lazy"
 alt="image-20221120013147886"
 >&lt;/p>
@@ -1452,7 +1452,7 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 检查 IP，此 IP 可用&lt;/p>
-&lt;p>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey5.png"
+&lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed/blog/misskey5.png"
 loading="lazy"
 alt="image-20221120013305544"
 >&lt;/p>
@@ -1515,7 +1515,7 @@ alt="image-20221120013635155"
 >&lt;/p>
 &lt;p>选择免费方案&lt;/p>
 &lt;p>添加 DNS 解析记录&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey9.png" alt="image-20221120013747246" style="zoom: 67%;" />
+&lt;!-- raw HTML omitted -->
 &lt;ul>
 &lt;li>
 &lt;p>&lt;code>*&lt;/code> 是通配符，意思是我的二级域名，xxx.ponderduck.cc 的 DNS 解析也一起被接管了。不用我一个一个设置&lt;/p>
@@ -1536,11 +1536,11 @@ fill="currentColor">
 &lt;/li>
 &lt;/ul>
 &lt;p>复制 CloudFlare 提供的两个名称服务器，填进 Dynadot 的 DNS 设置，保存&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey10.png" alt="image-20221120013847175" style="zoom:67%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>回到 CloudFlare 点击 &lt;code>Done, check nameservers&lt;/code>，等一会&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey11.png" alt="image-20221120013935205" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>&lt;del>测试，ping 你的域名，返回服务器 IP 说明解析生效&lt;/del>&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey12.png" alt="image-20221120014006868" style="zoom:67%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>开启完全 SSL，否则访问站点会报「重定向次数过多」的错误&lt;/p>
 &lt;p>&lt;img src="https://0livia99.github.io/Library/Application%20Support/typora-user-images/image-20221121185003309.png"
 loading="lazy"
@@ -1564,7 +1564,7 @@ alt="image-20221121185003309"
 &lt;h4 id="新建普通用户并设定密码">新建普通用户并设定密码&lt;/h4>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">adduser vpsadmin &lt;span class="c1"># vpsadmin是用户名&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后输入密码 - 确认密码（太简单会被拒绝==）&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey13.png" alt="image-20221120014438453" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;h4 id="赋予-vpsadmin-使用-sudo-指令的权限">赋予 「vpsadmin」 使用 sudo 指令的权限&lt;/h4>
 &lt;p>什么是 su 和 sudo 请看：&lt;a class="link" href="https://blog.gtwang.org/linux/sudo-su-command-tutorial-examples/" target="_blank" rel="noopener"
 >Linux 的 su 與 sudo 指令教學與範例&lt;/a>
@@ -1581,11 +1581,11 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>验证是否获得 sudo 权限&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo ls -al /root
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>返回类似内容（展示 &lt;code>/root&lt;/code> 目录下的资料）就表示成功了&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey14.png" alt="image-20221120014519093" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;h4 id="可选ssh免密登录">[可选]SSH免密登录&lt;/h4>
 &lt;p>每次登录 vpsadmin 都要手动输密码很麻烦，设置一下免密登录&lt;/p>
 &lt;p>在 Tabby 设置 - Profiles &amp;amp; connections - &lt;code>+ New profile&lt;/code> - SSH connection&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey40.png" alt="image-20221120144436295" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;h4 id="禁止-root-登录">禁止 root 登录&lt;/h4>
 &lt;p>（禁用核按钮）&lt;/p>
 &lt;p>登录 root 账户，输入&lt;/p>
@@ -1597,17 +1597,17 @@ fill="currentColor">
 &lt;p>重新启动 SSH 服务&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo /etc/init.d/ssh restart
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>打开一个新窗口&lt;/strong>，尝试用 root 登录，返回 Permission denied&amp;hellip;&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey41.png" alt="image-20221120150026614" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>✅成功禁止 root 登录&lt;/p>
 &lt;p>从现在开始，用「vpsadmin」这个账户远程连接 VPS 吧&lt;/p>
 &lt;h3 id="搭建环境">搭建环境&lt;/h3>
 &lt;h4 id="修改服务器时间">修改服务器时间&lt;/h4>
 &lt;p>查看时间&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">timedatectl
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey16.png" alt="image-20221120014657166" style="zoom:50%;" />
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>列出所有时区&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">timedatectl list-timezones
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey17.png" alt="image-20221120014727816" style="zoom:50%;" />
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>改成香港🇭🇰&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo timedatectl set-timezone Asia/Hong_Kong
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="安装常用命令">安装常用命令&lt;/h4>
@@ -1621,7 +1621,7 @@ fill="currentColor">
 &lt;p>swap 是 Linux 中的虚拟内存，用于在物理内存不足的情况下储存临时数据，可以提升小内存 VPS 的运行效率&lt;/p>
 &lt;p>确认是否已存在 SWAP&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">free -m
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey18.png" alt="image-20221120014807159" style="zoom:50%;" />
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>有 Swap 项而且 total 列不为零，说明 Swap 已存在，可以自行修改分区容量，参考：为 &lt;a class="link" href="https://www.vvave.net/archives/add-swap-and-repartition-swap-for-linux.html" target="_blank" rel="noopener"
 >Linux 添加 swap 分区或修改 swap 分区容量&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
@@ -1643,12 +1643,12 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>（其它服务需要的端口也用 &lt;code>sudo ufw allow xx/tcp&lt;/code> 开启）&lt;/p>
 &lt;p>验证防火墙是否打开，端口是否开启&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo ufw status
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey19.png" alt="image-20221120014838387" style="zoom:50%;" />
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>和其它服务商不同，Vultr 没有默认防火墙设置，所以要自己开启&lt;/p>
 &lt;p>在 Vultr 添加防火墙规则&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey20.png" alt="image-20221120014901103" style="zoom:50%;" />
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey21.png" alt="image-20221120014938210" style="zoom:50%;" />
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey22.png" alt="image-20221120015008060" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
 &lt;h4 id="安装-docker-和-docker-compose">安装 Docker 和 Docker Compose&lt;/h4>
 &lt;p>*Compose 是 Docker 的一个命令行工具，通过 yml 文件定义、创建、管理多容器的 Docker 应用&lt;/p>
 &lt;p>跟着 &lt;a class="link" href="https://www.51cto.com/article/715086.html" target="_blank" rel="noopener"
@@ -1711,7 +1711,7 @@ fill="currentColor">
 &lt;p>不放心可以再次进入 daemon.json 检查是否成功写入，效果类似：&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey23.png" alt="image-20221120015046625" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>了解：&lt;a class="link" href="https://www.runoob.com/linux/linux-vim.html" target="_blank" rel="noopener"
 >Linux vi/vim 是什么，怎么使用&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
@@ -1726,10 +1726,10 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo systemctl restart docker
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h5 id="检查-docker-是否正在运行">检查 Docker 是否正在运行&lt;/h5>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo systemctl status docker
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey24.png" alt="image-20221120015133790" style="zoom:50%;" />
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>换个方式，再测试一下&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo docker run hello-world
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey25.png" alt="image-20221120015200357" style="zoom:50%;" />
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>终于成功了 😭&lt;/p>
 &lt;h2 id="misskey">Misskey&lt;/h2>
 &lt;h3 id="创建安装目录">创建安装目录&lt;/h3>
@@ -1971,7 +1971,7 @@ fill="currentColor">
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo docker-compose restart &lt;span class="o">[&lt;/span>指定服务的容器&lt;span class="o">]&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>完成这一步之后，尝试用 IP 访问站点吧&lt;/p>
 &lt;p>在浏览器输入 &lt;code>http://&amp;lt;ip&amp;gt;:&amp;lt;port&amp;gt;&lt;/code>（IP 可以用 &lt;code>curl ip.sb&lt;/code> 返回）&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey26.png" alt="image-20221120015412689" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>（；&lt;/p>
 &lt;p>还有两个任务&lt;/p>
 &lt;ul>
@@ -1991,7 +1991,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>查看 Nginx 状态（是 active 就行）&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">systemctl status nginx
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在浏览器输入 http://your_vps_ip，返回 Nginx 默认页面&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey43.png" alt="image-20221121023144221" style="zoom:50%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>让 Nginx 在系统启动时自动启动&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo systemctl &lt;span class="nb">enable&lt;/span> nginx
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="设置服务器块">设置服务器块&lt;/h4>
@@ -2165,7 +2165,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>有问题的话按照提示修改，做完之后，重新启动 Nginx：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo systemctl restart nginx
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>现在 SSL 证书和反向代理都生效了，尝试用域名访问站点&lt;/p>
-&lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/image-20221121190615731.png" alt="image-20221121190615731" style="zoom:33%;" />
+&lt;!-- raw HTML omitted -->
 &lt;p>完成🎉&lt;/p>
 &lt;p>注册一个账号，回到命令行工具把它设置为管理员&lt;/p>
 &lt;h2 id="日常维护">日常维护&lt;/h2>
@@ -2336,7 +2336,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://0livia99.github.io/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/zoho-mail-services/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://0livia99.github.io/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/zoho-mail-services/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;p>在 zoho.com 注册账号，选择 Free Plan，Add an existing domain，接着去验证域名&lt;/p>
 &lt;p>在域名托管商（比如 Cloudflare）添加一条 TXT 记录然后验证&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202306020051407.png"

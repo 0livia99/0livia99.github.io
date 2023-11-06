@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pleroma on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/pleroma/</link><description>Recent content in Pleroma on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Sat, 03 Jun 2023 01:29:15 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/pleroma/index.xml" rel="self" type="application/rss+xml"/><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- more -->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pleroma on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/pleroma/</link><description>Recent content in Pleroma on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Sat, 03 Jun 2023 01:29:15 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/pleroma/index.xml" rel="self" type="application/rss+xml"/><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="前置步骤">前置步骤&lt;/h2>
 &lt;h3 id="安装依赖">安装依赖&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 更新&lt;/span>
@@ -9,7 +9,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="postgresql-性能调优">&lt;del>PostgreSQL 性能调优&lt;/del>&lt;/h3>
 &lt;p>&lt;del>根据 pgTune 修改配置文件&lt;/del>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">vim /etc/postgresql/13/main/postgresql.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p hidden>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&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;!-- raw HTML omitted -->
 &lt;p>重启 PostgreSQL&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">systemctl restart postgresql
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="安装-pleroma">安装 Pleroma&lt;/h2>
@@ -167,7 +167,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://0livia99.github.io/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/buy-and-set-ups/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://0livia99.github.io/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/buy-and-set-ups/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="购买服务器">购买服务器&lt;/h2>
 &lt;p>选 intel - 美西机房 - Debian11 - 1C1G 25G SSD 1TB&lt;/p>
 &lt;p>添加 SSH，生成密钥&lt;/p>
@@ -315,7 +315,7 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 已记录的内容不再重复&lt;/p>
-&lt;!-- more -->
+&lt;!-- raw HTML omitted -->
 &lt;h2 id="数据库相关">数据库相关&lt;/h2>
 &lt;ol>
 &lt;li>登录数据库，报错：psql: error: FATAL: Peer authentication failed for user &amp;ldquo;postgres&amp;rdquo;&lt;/li>
@@ -699,7 +699,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 访问 Pleroma，比如
 curl -v http://127.0.0.1:4000/api/v1/instance&lt;/p>
-&lt;p>NginX负责把外部的连接请求转发到 127.0.0.1:4000，得到响应后转发回去 &lt;img src="https://bucket.alive.bar/cache/custom_emojis/images/000/163/820/original/7ffe1103db94842e.png" alt=":ablobpanic:" style="zoom: 33%;" />&lt;/p>
+&lt;p>NginX负责把外部的连接请求转发到 127.0.0.1:4000，得到响应后转发回去 &lt;!-- raw HTML omitted -->&lt;/p>
 &lt;p>如果你用 netstat 没发现 4000 端口的程序，说明 Pleroma 挂了，该去检查 Pleroma 的错误日志 &lt;img src="https://bucket.alive.bar/cache/custom_emojis/images/000/047/971/original/c7b0bea715cd48c1.png"
 loading="lazy"
 alt=":ablobsweats:"
@@ -878,7 +878,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://0livia99.github.io/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/zoho-mail-services/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://0livia99.github.io/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/zoho-mail-services/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;p>在 zoho.com 注册账号，选择 Free Plan，Add an existing domain，接着去验证域名&lt;/p>
 &lt;p>在域名托管商（比如 Cloudflare）添加一条 TXT 记录然后验证&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202306020051407.png"
