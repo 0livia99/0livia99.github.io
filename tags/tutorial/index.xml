@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tutorial on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/tags/tutorial/</link><description>Recent content in tutorial on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Mon, 31 Jul 2023 16:22:45 +0800</lastBuildDate><atom:link href="https://ponder.lol/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrant ot Akkoma</title><link>https://ponder.lol/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://ponder.lol/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tutorial on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/tags/tutorial/</link><description>Recent content in tutorial on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Mon, 31 Jul 2023 16:22:45 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrant ot Akkoma</title><link>https://0livia99.github.io/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://0livia99.github.io/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
 &lt;p>🌟备份&lt;/p>
 &lt;p>➡️账号： Settings &amp;ndash; Data import/export，全部导出&lt;/p>
 &lt;p>以下文件夹用 FTP 客户端（FileZilla）备份到电脑&lt;/p>
@@ -305,7 +305,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>在 Ubuntu22.04 上搭建 Discourse 论坛</title><link>https://ponder.lol/p/build-discourse-site-on-ubuntu22/</link><pubDate>Sat, 22 Jul 2023 21:28:27 +0800</pubDate><guid>https://ponder.lol/p/build-discourse-site-on-ubuntu22/</guid><description>&lt;p>买服务器，系统为 Ubuntu 22.04 - x86_64&lt;/p>
+&lt;/p></description></item><item><title>在 Ubuntu22.04 上搭建 Discourse 论坛</title><link>https://0livia99.github.io/p/build-discourse-site-on-ubuntu22/</link><pubDate>Sat, 22 Jul 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/build-discourse-site-on-ubuntu22/</guid><description>&lt;p>买服务器，系统为 Ubuntu 22.04 - x86_64&lt;/p>
 &lt;p>买域名，托管到 CloudFlare（开DNS only），指向服务器IP&lt;/p>
 &lt;p>插播：Flarum论坛也好看，还轻量&lt;/p>
 &lt;h2 id="chore">Chore&lt;/h2>
@@ -483,7 +483,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">gem install mysql2
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Misskey 实例搭建教程</title><link>https://ponder.lol/p/misskey/</link><pubDate>Sat, 19 Nov 2022 20:19:15 +0800</pubDate><guid>https://ponder.lol/p/misskey/</guid><description>&lt;p>本次搭建使用 Ubuntu 22.10 系统&lt;/p>
+&lt;/div></description></item><item><title>Misskey 实例搭建教程</title><link>https://0livia99.github.io/p/misskey/</link><pubDate>Sat, 19 Nov 2022 20:19:15 +0800</pubDate><guid>https://0livia99.github.io/p/misskey/</guid><description>&lt;p>本次搭建使用 Ubuntu 22.10 系统&lt;/p>
 &lt;h2 id="购买-vps">购买 VPS&lt;/h2>
 &lt;p>⚠️不要买机房在大陆的服务商 VPS ⚠️&lt;/p>
 &lt;p>在备案通过之前 80 和 443 端口是封禁的 -&amp;gt; 无法申请 SSL 证书 -&amp;gt; Misskey 需要 SSL 才能访问，GG&lt;/p>
@@ -699,7 +699,7 @@ fill="currentColor">
 &lt;p>&lt;del>测试，ping 你的域名，返回服务器 IP 说明解析生效&lt;/del>&lt;/p>
 &lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey12.png" alt="image-20221120014006868" style="zoom:67%;" />
 &lt;p>开启完全 SSL，否则访问站点会报「重定向次数过多」的错误&lt;/p>
-&lt;p>&lt;img src="https://ponder.lol/Library/Application%20Support/typora-user-images/image-20221121185003309.png"
+&lt;p>&lt;img src="https://0livia99.github.io/Library/Application%20Support/typora-user-images/image-20221121185003309.png"
 loading="lazy"
 alt="image-20221121185003309"
 >&lt;/p>

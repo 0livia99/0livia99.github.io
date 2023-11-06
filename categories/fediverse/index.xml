@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fediverse on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/categories/fediverse/</link><description>Recent content in Fediverse on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Mon, 31 Jul 2023 16:22:45 +0800</lastBuildDate><atom:link href="https://ponder.lol/categories/fediverse/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrant ot Akkoma</title><link>https://ponder.lol/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://ponder.lol/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fediverse on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/fediverse/</link><description>Recent content in Fediverse on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Mon, 31 Jul 2023 16:22:45 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/fediverse/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrant ot Akkoma</title><link>https://0livia99.github.io/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://0livia99.github.io/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
 &lt;p>🌟备份&lt;/p>
 &lt;p>➡️账号： Settings &amp;ndash; Data import/export，全部导出&lt;/p>
 &lt;p>以下文件夹用 FTP 客户端（FileZilla）备份到电脑&lt;/p>
@@ -305,7 +305,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://ponder.lol/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://ponder.lol/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
+&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://0livia99.github.io/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://0livia99.github.io/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
 &lt;h2 id="本地安装-pg">本地安装 PG&lt;/h2>
 &lt;h3 id="用-homebrew-安装">用 Homebrew 安装&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -1044,7 +1044,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">q&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">退出交互查询模式&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://ponder.lol/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://ponder.lol/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- more -->
+&lt;/div></description></item><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- more -->
 &lt;h2 id="前置步骤">前置步骤&lt;/h2>
 &lt;h3 id="安装依赖">安装依赖&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -1438,7 +1438,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://ponder.lol/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://ponder.lol/p/buy-and-set-ups/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://0livia99.github.io/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/buy-and-set-ups/</guid><description>&lt;!-- more -->
 &lt;h2 id="购买服务器">购买服务器&lt;/h2>
 &lt;p>选 intel - 美西机房 - Debian11 - 1C1G 25G SSD 1TB&lt;/p>
 &lt;p>添加 SSH，生成密钥&lt;/p>
@@ -1681,7 +1681,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 维护日志(二)</title><link>https://ponder.lol/p/pleroma-operation-and-maintenance/</link><pubDate>Mon, 15 May 2023 18:52:31 +0800</pubDate><guid>https://ponder.lol/p/pleroma-operation-and-maintenance/</guid><description>&lt;p>前情：postgreSQL 数据库达到了惊人的 15G，把硬盘撑爆了且抢修无果。这是炸站重来后的运维日志。&lt;a class="link" href="https://ponder.lol/2023/pleroma-operation-and-maintenance2/" target="_blank" rel="noopener"
+&lt;/p></description></item><item><title>Pleroma | 维护日志(二)</title><link>https://0livia99.github.io/p/pleroma-operation-and-maintenance/</link><pubDate>Mon, 15 May 2023 18:52:31 +0800</pubDate><guid>https://0livia99.github.io/p/pleroma-operation-and-maintenance/</guid><description>&lt;p>前情：postgreSQL 数据库达到了惊人的 15G，把硬盘撑爆了且抢修无果。这是炸站重来后的运维日志。&lt;a class="link" href="https://ponder.lol/2023/pleroma-operation-and-maintenance2/" target="_blank" rel="noopener"
 >Pleroma | 维护日志(一)&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
@@ -1869,7 +1869,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 维护日志(一)</title><link>https://ponder.lol/p/pleroma-operation-and-maintenance2/</link><pubDate>Mon, 15 May 2023 12:52:31 +0800</pubDate><guid>https://ponder.lol/p/pleroma-operation-and-maintenance2/</guid><description>&lt;p>搭建步骤完全参考 &lt;a class="link" href="https://suicablog.cobaltkiss.blue/posts/pleroma-installation-on-linux-using-otp-releases/" target="_blank" rel="noopener"
+&lt;/p></description></item><item><title>Pleroma | 维护日志(一)</title><link>https://0livia99.github.io/p/pleroma-operation-and-maintenance2/</link><pubDate>Mon, 15 May 2023 12:52:31 +0800</pubDate><guid>https://0livia99.github.io/p/pleroma-operation-and-maintenance2/</guid><description>&lt;p>搭建步骤完全参考 &lt;a class="link" href="https://suicablog.cobaltkiss.blue/posts/pleroma-installation-on-linux-using-otp-releases/" target="_blank" rel="noopener"
 >在 Debian 10 / Ubuntu 20.04 上安装 Pleroma&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
@@ -2644,7 +2644,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Misskey 实例搭建教程</title><link>https://ponder.lol/p/misskey/</link><pubDate>Sat, 19 Nov 2022 20:19:15 +0800</pubDate><guid>https://ponder.lol/p/misskey/</guid><description>&lt;p>本次搭建使用 Ubuntu 22.10 系统&lt;/p>
+&lt;/p></description></item><item><title>Misskey 实例搭建教程</title><link>https://0livia99.github.io/p/misskey/</link><pubDate>Sat, 19 Nov 2022 20:19:15 +0800</pubDate><guid>https://0livia99.github.io/p/misskey/</guid><description>&lt;p>本次搭建使用 Ubuntu 22.10 系统&lt;/p>
 &lt;h2 id="购买-vps">购买 VPS&lt;/h2>
 &lt;p>⚠️不要买机房在大陆的服务商 VPS ⚠️&lt;/p>
 &lt;p>在备案通过之前 80 和 443 端口是封禁的 -&amp;gt; 无法申请 SSL 证书 -&amp;gt; Misskey 需要 SSL 才能访问，GG&lt;/p>
@@ -2860,7 +2860,7 @@ fill="currentColor">
 &lt;p>&lt;del>测试，ping 你的域名，返回服务器 IP 说明解析生效&lt;/del>&lt;/p>
 &lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey12.png" alt="image-20221120014006868" style="zoom:67%;" />
 &lt;p>开启完全 SSL，否则访问站点会报「重定向次数过多」的错误&lt;/p>
-&lt;p>&lt;img src="https://ponder.lol/Library/Application%20Support/typora-user-images/image-20221121185003309.png"
+&lt;p>&lt;img src="https://0livia99.github.io/Library/Application%20Support/typora-user-images/image-20221121185003309.png"
 loading="lazy"
 alt="image-20221121185003309"
 >&lt;/p>
@@ -4507,7 +4507,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://ponder.lol/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://ponder.lol/p/zoho-mail-services/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://0livia99.github.io/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/zoho-mail-services/</guid><description>&lt;!-- more -->
 &lt;p>在 zoho.com 注册账号，选择 Free Plan，Add an existing domain，接着去验证域名&lt;/p>
 &lt;p>在域名托管商（比如 Cloudflare）添加一条 TXT 记录然后验证&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202306020051407.png"

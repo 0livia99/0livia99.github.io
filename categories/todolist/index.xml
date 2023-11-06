@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ToDoList on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/categories/todolist/</link><description>Recent content in ToDoList on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Mon, 31 Jul 2023 16:22:45 +0800</lastBuildDate><atom:link href="https://ponder.lol/categories/todolist/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrant ot Akkoma</title><link>https://ponder.lol/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://ponder.lol/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ToDoList on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/todolist/</link><description>Recent content in ToDoList on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Mon, 31 Jul 2023 16:22:45 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/todolist/index.xml" rel="self" type="application/rss+xml"/><item><title>Migrant ot Akkoma</title><link>https://0livia99.github.io/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://0livia99.github.io/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
 &lt;p>🌟备份&lt;/p>
 &lt;p>➡️账号： Settings &amp;ndash; Data import/export，全部导出&lt;/p>
 &lt;p>以下文件夹用 FTP 客户端（FileZilla）备份到电脑&lt;/p>
@@ -305,7 +305,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>iTerm2 配置</title><link>https://ponder.lol/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://ponder.lol/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
+&lt;/p></description></item><item><title>iTerm2 配置</title><link>https://0livia99.github.io/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://0livia99.github.io/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
 &lt;p>创建登录脚本 &lt;code>/.ssh/remote-login-vps.sh&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -338,7 +338,7 @@ fill="currentColor">
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202307181916887.webp"
 loading="lazy"
 alt="image (1)"
->&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://ponder.lol/p/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://ponder.lol/p/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
+>&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://0livia99.github.io/p/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://0livia99.github.io/p/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
 &lt;blockquote>
 &lt;p>设计出层级结构。出去时不断加码，加信息，加标签，到达时，不断解码，减信息，解包&lt;/p>
 &lt;/blockquote>
@@ -704,7 +704,7 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
-&lt;p>[编译、配置 nginx,使 V2ray,Xray,Trojan,博客网站等共用 443 端口](&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://ponder.lol/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://ponder.lol/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
+&lt;p>[编译、配置 nginx,使 V2ray,Xray,Trojan,博客网站等共用 443 端口](&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://0livia99.github.io/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://0livia99.github.io/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
 &lt;h2 id="本地安装-pg">本地安装 PG&lt;/h2>
 &lt;h3 id="用-homebrew-安装">用 Homebrew 安装&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -1443,7 +1443,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">q&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">退出交互查询模式&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Vue3 | ToDoList</title><link>https://ponder.lol/p/vue3-todolist/</link><pubDate>Wed, 21 Jun 2023 01:29:15 +0800</pubDate><guid>https://ponder.lol/p/vue3-todolist/</guid><description>&lt;h2 id="实现功能">实现功能&lt;/h2>
+&lt;/div></description></item><item><title>Vue3 | ToDoList</title><link>https://0livia99.github.io/p/vue3-todolist/</link><pubDate>Wed, 21 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/vue3-todolist/</guid><description>&lt;h2 id="实现功能">实现功能&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>展示任务的列表&lt;/p>

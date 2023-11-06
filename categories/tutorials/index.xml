@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/categories/tutorials/</link><description>Recent content in Tutorials on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Tue, 18 Jul 2023 18:41:59 +0800</lastBuildDate><atom:link href="https://ponder.lol/categories/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>iTerm2 配置</title><link>https://ponder.lol/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://ponder.lol/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/tutorials/</link><description>Recent content in Tutorials on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Tue, 18 Jul 2023 18:41:59 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>iTerm2 配置</title><link>https://0livia99.github.io/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://0livia99.github.io/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
 &lt;p>创建登录脚本 &lt;code>/.ssh/remote-login-vps.sh&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -31,7 +31,7 @@
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202307181916887.webp"
 loading="lazy"
 alt="image (1)"
->&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://ponder.lol/p/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://ponder.lol/p/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
+>&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://0livia99.github.io/p/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://0livia99.github.io/p/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
 &lt;blockquote>
 &lt;p>设计出层级结构。出去时不断加码，加信息，加标签，到达时，不断解码，减信息，解包&lt;/p>
 &lt;/blockquote>
