@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Frontend on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/frontend/</link><description>Recent content in Frontend on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Thu, 31 Aug 2023 15:25:38 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/frontend/index.xml" rel="self" type="application/rss+xml"/><item><title>Vue | Note | Monster Slayer Game</title><link>https://0livia99.github.io/p/vuejs-monster-slayer/</link><pubDate>Thu, 31 Aug 2023 15:25:38 +0800</pubDate><guid>https://0livia99.github.io/p/vuejs-monster-slayer/</guid><description>&lt;ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Frontend on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/categories/frontend/</link><description>Recent content in Frontend on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Thu, 31 Aug 2023 15:25:38 +0800</lastBuildDate><atom:link href="https://ponder.lol/categories/frontend/index.xml" rel="self" type="application/rss+xml"/><item><title>Vue | Note | Monster Slayer Game</title><link>https://ponder.lol/p/vuejs-monster-slayer/</link><pubDate>Thu, 31 Aug 2023 15:25:38 +0800</pubDate><guid>https://ponder.lol/p/vuejs-monster-slayer/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://monster-slayer.ponder.lol/" target="_blank" rel="noopener"
 >Live Deploy&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
@@ -219,7 +219,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Vue3 | ToDoList</title><link>https://0livia99.github.io/p/vue3-todolist/</link><pubDate>Wed, 21 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/vue3-todolist/</guid><description>&lt;h2 id="实现功能">实现功能&lt;/h2>
+&lt;/div></description></item><item><title>Vue3 | ToDoList</title><link>https://ponder.lol/p/vue3-todolist/</link><pubDate>Wed, 21 Jun 2023 01:29:15 +0800</pubDate><guid>https://ponder.lol/p/vue3-todolist/</guid><description>&lt;h2 id="实现功能">实现功能&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>展示任务的列表&lt;/p>

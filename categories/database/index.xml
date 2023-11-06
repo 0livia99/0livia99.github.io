@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DataBase on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/database/</link><description>Recent content in DataBase on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Thu, 29 Jun 2023 19:13:22 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL 入门</title><link>https://0livia99.github.io/p/sql/</link><pubDate>Thu, 29 Jun 2023 19:13:22 +0800</pubDate><guid>https://0livia99.github.io/p/sql/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DataBase on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/categories/database/</link><description>Recent content in DataBase on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Thu, 29 Jun 2023 19:13:22 +0800</lastBuildDate><atom:link href="https://ponder.lol/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>SQL 入门</title><link>https://ponder.lol/p/sql/</link><pubDate>Thu, 29 Jun 2023 19:13:22 +0800</pubDate><guid>https://ponder.lol/p/sql/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -178,7 +178,7 @@
 &lt;h3 id="round列名-精度">ROUND(列名, 精度)&lt;/h3>
 &lt;p>字段舍入为指定的小树位数&lt;/p>
 &lt;h3 id="nowsysdate">NOW/SYSDATE&lt;/h3>
-&lt;p>获取当前日期时间&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://0livia99.github.io/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://0livia99.github.io/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
+&lt;p>获取当前日期时间&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://ponder.lol/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://ponder.lol/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
 &lt;h2 id="本地安装-pg">本地安装 PG&lt;/h2>
 &lt;h3 id="用-homebrew-安装">用 Homebrew 安装&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/tags/hugo/</link><description>Recent content in Hugo on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Thu, 11 May 2023 21:28:27 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo｜自定义 hugo-theme-Stack</title><link>https://0livia99.github.io/p/custom-hugo-theme-stack/</link><pubDate>Thu, 11 May 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/custom-hugo-theme-stack/</guid><description>&lt;p>支持 mermaid，新增导航栏，添加一些小功能，微调样式&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/tags/hugo/</link><description>Recent content in Hugo on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Thu, 11 May 2023 21:28:27 +0800</lastBuildDate><atom:link href="https://ponder.lol/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo｜自定义 hugo-theme-Stack</title><link>https://ponder.lol/p/custom-hugo-theme-stack/</link><pubDate>Thu, 11 May 2023 21:28:27 +0800</pubDate><guid>https://ponder.lol/p/custom-hugo-theme-stack/</guid><description>&lt;p>支持 mermaid，新增导航栏，添加一些小功能，微调样式&lt;/p>
 &lt;h2 id="修改标题样式">修改标题样式&lt;/h2>
 &lt;p>H2 和 H3 区分度不大&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202306221803644.webp"
@@ -1135,7 +1135,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>博客域名设置</title><link>https://0livia99.github.io/p/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://0livia99.github.io/p/domain/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>博客域名设置</title><link>https://ponder.lol/p/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://ponder.lol/p/domain/</guid><description>&lt;!-- more -->
 &lt;h2 id="设置步骤">设置步骤&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -1271,7 +1271,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://0livia99.github.io/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/picture-bed/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://ponder.lol/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://ponder.lol/p/picture-bed/</guid><description>&lt;!-- more -->
 &lt;h2 id="安装-picgo">安装 PicGo&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1385,7 +1385,7 @@ fill="currentColor">
 &amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Hugo｜Github Pages｜Stack主题｜搭建记录</title><link>https://0livia99.github.io/p/build-hugo-site-on-macos/</link><pubDate>Fri, 21 Oct 2022 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/build-hugo-site-on-macos/</guid><description>&lt;p>基于 macOS Monterey，Hugo 框架和 GitHub Pages 网页寄存服务，博客主题为 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+&lt;/div></description></item><item><title>Hugo｜Github Pages｜Stack主题｜搭建记录</title><link>https://ponder.lol/p/build-hugo-site-on-macos/</link><pubDate>Fri, 21 Oct 2022 21:28:27 +0800</pubDate><guid>https://ponder.lol/p/build-hugo-site-on-macos/</guid><description>&lt;p>基于 macOS Monterey，Hugo 框架和 GitHub Pages 网页寄存服务，博客主题为 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
 >Stack&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
@@ -1917,7 +1917,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://ponder.lol/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://ponder.lol/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- more -->
 &lt;p>Update：用过 Cataus、Disqus，Cataus 和同名主题配合起来很可爱，用了一段时间 Disqus 后对它的 UI 不太满意，再加上强制登录比较恼人，就换成象友推荐的 Twikoo 试试&lt;/p>
 &lt;h2 id="twikoo">Twikoo&lt;/h2>
 &lt;h3 id="设置数据库-mongodb">设置数据库 MongoDB&lt;/h3>
@@ -2104,7 +2104,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | Front Matter</title><link>https://0livia99.github.io/p/hugo-front-matter/</link><pubDate>Wed, 12 Oct 2022 20:08:18 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-front-matter/</guid><description>&lt;h2 id="什么是-front-matter">什么是 Front Matter&lt;/h2>
+&lt;/p></description></item><item><title>Hugo | Front Matter</title><link>https://ponder.lol/p/hugo-front-matter/</link><pubDate>Wed, 12 Oct 2022 20:08:18 +0800</pubDate><guid>https://ponder.lol/p/hugo-front-matter/</guid><description>&lt;h2 id="什么是-front-matter">什么是 Front Matter&lt;/h2>
 &lt;p>是指 .md 文件最上面的这一部分内容&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -2293,7 +2293,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-—— 参考了匹配随机图片的代码&lt;/p></description></item><item><title>Hugo | 初次搭建记录</title><link>https://0livia99.github.io/p/build-blog-site-use-hugo-win/</link><pubDate>Wed, 12 Oct 2022 16:06:44 +0800</pubDate><guid>https://0livia99.github.io/p/build-blog-site-use-hugo-win/</guid><description>&lt;h2 id="前期准备">前期准备&lt;/h2>
+—— 参考了匹配随机图片的代码&lt;/p></description></item><item><title>Hugo | 初次搭建记录</title><link>https://ponder.lol/p/build-blog-site-use-hugo-win/</link><pubDate>Wed, 12 Oct 2022 16:06:44 +0800</pubDate><guid>https://ponder.lol/p/build-blog-site-use-hugo-win/</guid><description>&lt;h2 id="前期准备">前期准备&lt;/h2>
 &lt;h3 id="安装-hugo">安装 Hugo&lt;/h3>
 &lt;ul>
 &lt;li>打开 Github 中的 &lt;a class="link" href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener"

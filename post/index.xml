@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/post/</link><description>Recent content in Posts on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Sun, 05 Nov 2023 23:55:30 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Figma</title><link>https://0livia99.github.io/p/figma/</link><pubDate>Sun, 05 Nov 2023 23:55:30 +0800</pubDate><guid>https://0livia99.github.io/p/figma/</guid><description>&lt;h2 id="cheat-sheet">cheat sheet&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Rubber Duck's Bizarre Adventure</title><link>https://ponder.lol/post/</link><description>Recent content in Posts on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Sun, 05 Nov 2023 23:55:30 +0800</lastBuildDate><atom:link href="https://ponder.lol/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Figma</title><link>https://ponder.lol/p/figma/</link><pubDate>Sun, 05 Nov 2023 23:55:30 +0800</pubDate><guid>https://ponder.lol/p/figma/</guid><description>&lt;h2 id="cheat-sheet">cheat sheet&lt;/h2>
 &lt;p>space 移动画布&lt;/p>
 &lt;p>control + 中键滚轮 缩放画布&lt;/p>
 &lt;p>右上角显示当前画布百分比&lt;/p>
@@ -44,7 +44,7 @@
 &lt;p>option 以矩形中心为基准&lt;/p>
 &lt;p>shift 画正方形&lt;/p>
 &lt;h2 id="蒙板">蒙板&lt;/h2>
-&lt;p>把图层重叠-选中-在顶部居中的位置点击 Use as mask&lt;/p></description></item><item><title>Vue | Note | Monster Slayer Game</title><link>https://0livia99.github.io/p/vuejs-monster-slayer/</link><pubDate>Thu, 31 Aug 2023 15:25:38 +0800</pubDate><guid>https://0livia99.github.io/p/vuejs-monster-slayer/</guid><description>&lt;ul>
+&lt;p>把图层重叠-选中-在顶部居中的位置点击 Use as mask&lt;/p></description></item><item><title>Vue | Note | Monster Slayer Game</title><link>https://ponder.lol/p/vuejs-monster-slayer/</link><pubDate>Thu, 31 Aug 2023 15:25:38 +0800</pubDate><guid>https://ponder.lol/p/vuejs-monster-slayer/</guid><description>&lt;ul>
 &lt;li>&lt;a class="link" href="https://monster-slayer.ponder.lol/" target="_blank" rel="noopener"
 >Live Deploy&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
@@ -265,7 +265,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Migrant ot Akkoma</title><link>https://0livia99.github.io/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://0livia99.github.io/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
+&lt;/div></description></item><item><title>Migrant ot Akkoma</title><link>https://ponder.lol/p/migrant-oto-akkoma/</link><pubDate>Mon, 31 Jul 2023 16:22:45 +0800</pubDate><guid>https://ponder.lol/p/migrant-oto-akkoma/</guid><description>&lt;h2 id="准备">准备&lt;/h2>
 &lt;p>🌟备份&lt;/p>
 &lt;p>➡️账号： Settings &amp;ndash; Data import/export，全部导出&lt;/p>
 &lt;p>以下文件夹用 FTP 客户端（FileZilla）备份到电脑&lt;/p>
@@ -572,7 +572,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>在 Ubuntu22.04 上搭建 Discourse 论坛</title><link>https://0livia99.github.io/p/build-discourse-site-on-ubuntu22/</link><pubDate>Sat, 22 Jul 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/build-discourse-site-on-ubuntu22/</guid><description>&lt;p>买服务器，系统为 Ubuntu 22.04 - x86_64&lt;/p>
+&lt;/p></description></item><item><title>在 Ubuntu22.04 上搭建 Discourse 论坛</title><link>https://ponder.lol/p/build-discourse-site-on-ubuntu22/</link><pubDate>Sat, 22 Jul 2023 21:28:27 +0800</pubDate><guid>https://ponder.lol/p/build-discourse-site-on-ubuntu22/</guid><description>&lt;p>买服务器，系统为 Ubuntu 22.04 - x86_64&lt;/p>
 &lt;p>买域名，托管到 CloudFlare（开DNS only），指向服务器IP&lt;/p>
 &lt;p>插播：Flarum论坛也好看，还轻量&lt;/p>
 &lt;h2 id="chore">Chore&lt;/h2>
@@ -750,7 +750,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">gem install mysql2
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>iTerm2 配置</title><link>https://0livia99.github.io/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://0livia99.github.io/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
+&lt;/div></description></item><item><title>iTerm2 配置</title><link>https://ponder.lol/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://ponder.lol/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
 &lt;p>创建登录脚本 &lt;code>/.ssh/remote-login-vps.sh&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -783,7 +783,7 @@ fill="currentColor">
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202307181916887.webp"
 loading="lazy"
 alt="image (1)"
->&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://0livia99.github.io/p/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://0livia99.github.io/p/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
+>&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://ponder.lol/p/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://ponder.lol/p/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
 &lt;blockquote>
 &lt;p>设计出层级结构。出去时不断加码，加信息，加标签，到达时，不断解码，减信息，解包&lt;/p>
 &lt;/blockquote>
@@ -1149,7 +1149,7 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
-&lt;p>[编译、配置 nginx,使 V2ray,Xray,Trojan,博客网站等共用 443 端口](&lt;/p></description></item><item><title>SQL 入门</title><link>https://0livia99.github.io/p/sql/</link><pubDate>Thu, 29 Jun 2023 19:13:22 +0800</pubDate><guid>https://0livia99.github.io/p/sql/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
+&lt;p>[编译、配置 nginx,使 V2ray,Xray,Trojan,博客网站等共用 443 端口](&lt;/p></description></item><item><title>SQL 入门</title><link>https://ponder.lol/p/sql/</link><pubDate>Thu, 29 Jun 2023 19:13:22 +0800</pubDate><guid>https://ponder.lol/p/sql/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
@@ -1329,7 +1329,7 @@ fill="currentColor">
 &lt;h3 id="round列名-精度">ROUND(列名, 精度)&lt;/h3>
 &lt;p>字段舍入为指定的小树位数&lt;/p>
 &lt;h3 id="nowsysdate">NOW/SYSDATE&lt;/h3>
-&lt;p>获取当前日期时间&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://0livia99.github.io/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://0livia99.github.io/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
+&lt;p>获取当前日期时间&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://ponder.lol/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://ponder.lol/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
 &lt;h2 id="本地安装-pg">本地安装 PG&lt;/h2>
 &lt;h3 id="用-homebrew-安装">用 Homebrew 安装&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -2068,7 +2068,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">q&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">退出交互查询模式&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Vue3 | ToDoList</title><link>https://0livia99.github.io/p/vue3-todolist/</link><pubDate>Wed, 21 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/vue3-todolist/</guid><description>&lt;h2 id="实现功能">实现功能&lt;/h2>
+&lt;/div></description></item><item><title>Vue3 | ToDoList</title><link>https://ponder.lol/p/vue3-todolist/</link><pubDate>Wed, 21 Jun 2023 01:29:15 +0800</pubDate><guid>https://ponder.lol/p/vue3-todolist/</guid><description>&lt;h2 id="实现功能">实现功能&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>展示任务的列表&lt;/p>
@@ -2269,7 +2269,7 @@ alt="image"
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202308290007098.webp"
 loading="lazy"
 alt="image"
->&lt;/p></description></item><item><title>Language learning | dictate NCE II</title><link>https://0livia99.github.io/p/language-learning-dictate-nce-ii/</link><pubDate>Sun, 11 Jun 2023 23:17:00 +0800</pubDate><guid>https://0livia99.github.io/p/language-learning-dictate-nce-ii/</guid><description>&lt;p>Last week, I went to the theatre, i had a very good set, the play is very interesting. i did not enjoy it. the young man and a young woman is sitting behind me. They were talking loudly. i got very angry. i could not heat the actors. i turned around, i looked at the man and the woman angrily, they did not pay any attention, in the end, i could not bared, i turned around again,i can&amp;rsquo;t hear the word, i said angrily. Its not your business, the young man said rudely, this is a private conversation.&lt;/p></description></item><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://0livia99.github.io/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- more -->
+>&lt;/p></description></item><item><title>Language learning | dictate NCE II</title><link>https://ponder.lol/p/language-learning-dictate-nce-ii/</link><pubDate>Sun, 11 Jun 2023 23:17:00 +0800</pubDate><guid>https://ponder.lol/p/language-learning-dictate-nce-ii/</guid><description>&lt;p>Last week, I went to the theatre, i had a very good set, the play is very interesting. i did not enjoy it. the young man and a young woman is sitting behind me. They were talking loudly. i got very angry. i could not heat the actors. i turned around, i looked at the man and the woman angrily, they did not pay any attention, in the end, i could not bared, i turned around again,i can&amp;rsquo;t hear the word, i said angrily. Its not your business, the young man said rudely, this is a private conversation.&lt;/p></description></item><item><title>Pleroma | 在 Debian 上搭建 pleroma 实例</title><link>https://ponder.lol/p/new-pleroma-isntance-on-debian11/</link><pubDate>Sat, 03 Jun 2023 01:29:15 +0800</pubDate><guid>https://ponder.lol/p/new-pleroma-isntance-on-debian11/</guid><description>&lt;!-- more -->
 &lt;h2 id="前置步骤">前置步骤&lt;/h2>
 &lt;h3 id="安装依赖">安装依赖&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -2663,7 +2663,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://0livia99.github.io/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/buy-and-set-ups/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Pleroma | 购买服务器及之后要做什么</title><link>https://ponder.lol/p/buy-and-set-ups/</link><pubDate>Thu, 01 Jun 2023 23:29:38 +0800</pubDate><guid>https://ponder.lol/p/buy-and-set-ups/</guid><description>&lt;!-- more -->
 &lt;h2 id="购买服务器">购买服务器&lt;/h2>
 &lt;p>选 intel - 美西机房 - Debian11 - 1C1G 25G SSD 1TB&lt;/p>
 &lt;p>添加 SSH，生成密钥&lt;/p>
@@ -2906,7 +2906,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 维护日志(二)</title><link>https://0livia99.github.io/p/pleroma-operation-and-maintenance/</link><pubDate>Mon, 15 May 2023 18:52:31 +0800</pubDate><guid>https://0livia99.github.io/p/pleroma-operation-and-maintenance/</guid><description>&lt;p>前情：postgreSQL 数据库达到了惊人的 15G，把硬盘撑爆了且抢修无果。这是炸站重来后的运维日志。&lt;a class="link" href="https://ponder.lol/2023/pleroma-operation-and-maintenance2/" target="_blank" rel="noopener"
+&lt;/p></description></item><item><title>Pleroma | 维护日志(二)</title><link>https://ponder.lol/p/pleroma-operation-and-maintenance/</link><pubDate>Mon, 15 May 2023 18:52:31 +0800</pubDate><guid>https://ponder.lol/p/pleroma-operation-and-maintenance/</guid><description>&lt;p>前情：postgreSQL 数据库达到了惊人的 15G，把硬盘撑爆了且抢修无果。这是炸站重来后的运维日志。&lt;a class="link" href="https://ponder.lol/2023/pleroma-operation-and-maintenance2/" target="_blank" rel="noopener"
 >Pleroma | 维护日志(一)&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
@@ -3094,7 +3094,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Pleroma | 维护日志(一)</title><link>https://0livia99.github.io/p/pleroma-operation-and-maintenance2/</link><pubDate>Mon, 15 May 2023 12:52:31 +0800</pubDate><guid>https://0livia99.github.io/p/pleroma-operation-and-maintenance2/</guid><description>&lt;p>搭建步骤完全参考 &lt;a class="link" href="https://suicablog.cobaltkiss.blue/posts/pleroma-installation-on-linux-using-otp-releases/" target="_blank" rel="noopener"
+&lt;/p></description></item><item><title>Pleroma | 维护日志(一)</title><link>https://ponder.lol/p/pleroma-operation-and-maintenance2/</link><pubDate>Mon, 15 May 2023 12:52:31 +0800</pubDate><guid>https://ponder.lol/p/pleroma-operation-and-maintenance2/</guid><description>&lt;p>搭建步骤完全参考 &lt;a class="link" href="https://suicablog.cobaltkiss.blue/posts/pleroma-installation-on-linux-using-otp-releases/" target="_blank" rel="noopener"
 >在 Debian 10 / Ubuntu 20.04 上安装 Pleroma&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
@@ -3869,7 +3869,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo｜自定义 hugo-theme-Stack</title><link>https://0livia99.github.io/p/custom-hugo-theme-stack/</link><pubDate>Thu, 11 May 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/custom-hugo-theme-stack/</guid><description>&lt;p>支持 mermaid，新增导航栏，添加一些小功能，微调样式&lt;/p>
+&lt;/p></description></item><item><title>Hugo｜自定义 hugo-theme-Stack</title><link>https://ponder.lol/p/custom-hugo-theme-stack/</link><pubDate>Thu, 11 May 2023 21:28:27 +0800</pubDate><guid>https://ponder.lol/p/custom-hugo-theme-stack/</guid><description>&lt;p>支持 mermaid，新增导航栏，添加一些小功能，微调样式&lt;/p>
 &lt;h2 id="修改标题样式">修改标题样式&lt;/h2>
 &lt;p>H2 和 H3 区分度不大&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202306221803644.webp"
@@ -5006,7 +5006,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Nginx</title><link>https://0livia99.github.io/p/nginx-memos/</link><pubDate>Tue, 11 Apr 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/nginx-memos/</guid><description>&lt;h2 id="nginx">Nginx&lt;/h2>
+&lt;/p></description></item><item><title>Nginx</title><link>https://ponder.lol/p/nginx-memos/</link><pubDate>Tue, 11 Apr 2023 21:28:27 +0800</pubDate><guid>https://ponder.lol/p/nginx-memos/</guid><description>&lt;h2 id="nginx">Nginx&lt;/h2>
 &lt;h3 id="几个重要的nginx文件和目录">几个重要的Nginx文件和目录&lt;/h3>
 &lt;h4 id="网站内容">网站内容&lt;/h4>
 &lt;ul>
@@ -5028,7 +5028,7 @@ fill="currentColor">
 &lt;ul>
 &lt;li>&lt;code>/var/log/nginx/access.log&lt;/code>：如无其他设置，此文件记录了每一次的网页服务请求。&lt;/li>
 &lt;li>&lt;code>/var/log/nginx/error.log&lt;/code>：Nginx错误请求记录文件。&lt;/li>
-&lt;/ul></description></item><item><title>Misskey 实例搭建教程</title><link>https://0livia99.github.io/p/misskey/</link><pubDate>Sat, 19 Nov 2022 20:19:15 +0800</pubDate><guid>https://0livia99.github.io/p/misskey/</guid><description>&lt;p>本次搭建使用 Ubuntu 22.10 系统&lt;/p>
+&lt;/ul></description></item><item><title>Misskey 实例搭建教程</title><link>https://ponder.lol/p/misskey/</link><pubDate>Sat, 19 Nov 2022 20:19:15 +0800</pubDate><guid>https://ponder.lol/p/misskey/</guid><description>&lt;p>本次搭建使用 Ubuntu 22.10 系统&lt;/p>
 &lt;h2 id="购买-vps">购买 VPS&lt;/h2>
 &lt;p>⚠️不要买机房在大陆的服务商 VPS ⚠️&lt;/p>
 &lt;p>在备案通过之前 80 和 443 端口是封禁的 -&amp;gt; 无法申请 SSL 证书 -&amp;gt; Misskey 需要 SSL 才能访问，GG&lt;/p>
@@ -5244,7 +5244,7 @@ fill="currentColor">
 &lt;p>&lt;del>测试，ping 你的域名，返回服务器 IP 说明解析生效&lt;/del>&lt;/p>
 &lt;img src="https://raw.githubusercontent.com/Falasool/blog-pic-bed/main/blog/misskey12.png" alt="image-20221120014006868" style="zoom:67%;" />
 &lt;p>开启完全 SSL，否则访问站点会报「重定向次数过多」的错误&lt;/p>
-&lt;p>&lt;img src="https://0livia99.github.io/Library/Application%20Support/typora-user-images/image-20221121185003309.png"
+&lt;p>&lt;img src="https://ponder.lol/Library/Application%20Support/typora-user-images/image-20221121185003309.png"
 loading="lazy"
 alt="image-20221121185003309"
 >&lt;/p>
@@ -6891,7 +6891,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>博客域名设置</title><link>https://0livia99.github.io/p/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://0livia99.github.io/p/domain/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>博客域名设置</title><link>https://ponder.lol/p/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://ponder.lol/p/domain/</guid><description>&lt;!-- more -->
 &lt;h2 id="设置步骤">设置步骤&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -7027,7 +7027,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://0livia99.github.io/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/picture-bed/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://ponder.lol/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://ponder.lol/p/picture-bed/</guid><description>&lt;!-- more -->
 &lt;h2 id="安装-picgo">安装 PicGo&lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -7141,7 +7141,7 @@ fill="currentColor">
 &amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://0livia99.github.io/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/zoho-mail-services/</guid><description>&lt;!-- more -->
+&lt;/div></description></item><item><title>Pleroma | 开启邮件服务（ZOHO）</title><link>https://ponder.lol/p/zoho-mail-services/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://ponder.lol/p/zoho-mail-services/</guid><description>&lt;!-- more -->
 &lt;p>在 zoho.com 注册账号，选择 Free Plan，Add an existing domain，接着去验证域名&lt;/p>
 &lt;p>在域名托管商（比如 Cloudflare）添加一条 TXT 记录然后验证&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202306020051407.png"
@@ -7158,7 +7158,7 @@ alt="image-20230602010444789"
 loading="lazy"
 alt="image"
 >&lt;/p>
-&lt;p>验证后完成，到 mail.zoho.com 测试收发邮件功能&lt;/p></description></item><item><title>Hugo｜Github Pages｜Stack主题｜搭建记录</title><link>https://0livia99.github.io/p/build-hugo-site-on-macos/</link><pubDate>Fri, 21 Oct 2022 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/build-hugo-site-on-macos/</guid><description>&lt;p>基于 macOS Monterey，Hugo 框架和 GitHub Pages 网页寄存服务，博客主题为 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+&lt;p>验证后完成，到 mail.zoho.com 测试收发邮件功能&lt;/p></description></item><item><title>Hugo｜Github Pages｜Stack主题｜搭建记录</title><link>https://ponder.lol/p/build-hugo-site-on-macos/</link><pubDate>Fri, 21 Oct 2022 21:28:27 +0800</pubDate><guid>https://ponder.lol/p/build-hugo-site-on-macos/</guid><description>&lt;p>基于 macOS Monterey，Hugo 框架和 GitHub Pages 网页寄存服务，博客主题为 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
 >Stack&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
@@ -7690,7 +7690,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- more -->
+&lt;/p></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://ponder.lol/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://ponder.lol/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- more -->
 &lt;p>Update：用过 Cataus、Disqus，Cataus 和同名主题配合起来很可爱，用了一段时间 Disqus 后对它的 UI 不太满意，再加上强制登录比较恼人，就换成象友推荐的 Twikoo 试试&lt;/p>
 &lt;h2 id="twikoo">Twikoo&lt;/h2>
 &lt;h3 id="设置数据库-mongodb">设置数据库 MongoDB&lt;/h3>
@@ -7877,7 +7877,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | Front Matter</title><link>https://0livia99.github.io/p/hugo-front-matter/</link><pubDate>Wed, 12 Oct 2022 20:08:18 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-front-matter/</guid><description>&lt;h2 id="什么是-front-matter">什么是 Front Matter&lt;/h2>
+&lt;/p></description></item><item><title>Hugo | Front Matter</title><link>https://ponder.lol/p/hugo-front-matter/</link><pubDate>Wed, 12 Oct 2022 20:08:18 +0800</pubDate><guid>https://ponder.lol/p/hugo-front-matter/</guid><description>&lt;h2 id="什么是-front-matter">什么是 Front Matter&lt;/h2>
 &lt;p>是指 .md 文件最上面的这一部分内容&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -8066,7 +8066,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-—— 参考了匹配随机图片的代码&lt;/p></description></item><item><title>Hugo | 初次搭建记录</title><link>https://0livia99.github.io/p/build-blog-site-use-hugo-win/</link><pubDate>Wed, 12 Oct 2022 16:06:44 +0800</pubDate><guid>https://0livia99.github.io/p/build-blog-site-use-hugo-win/</guid><description>&lt;h2 id="前期准备">前期准备&lt;/h2>
+—— 参考了匹配随机图片的代码&lt;/p></description></item><item><title>Hugo | 初次搭建记录</title><link>https://ponder.lol/p/build-blog-site-use-hugo-win/</link><pubDate>Wed, 12 Oct 2022 16:06:44 +0800</pubDate><guid>https://ponder.lol/p/build-blog-site-use-hugo-win/</guid><description>&lt;h2 id="前期准备">前期准备&lt;/h2>
 &lt;h3 id="安装-hugo">安装 Hugo&lt;/h3>
 &lt;ul>
 &lt;li>打开 Github 中的 &lt;a class="link" href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener"
