@@ -25,8 +25,9 @@ fill="currentColor">
 &lt;/div>&lt;h3 id="vercel-部署">Vercel 部署&lt;/h3>
 &lt;p>按照文档的一键部署，等待&amp;hellip;&lt;/p>
 &lt;p>在控制台 - settings - Environment Variables，添加环境变量 &lt;code>MONGODB_URI&lt;/code>，值为之前的数据库连接字符串&lt;/p>
-&lt;p>进入 Deployments , 然后在任意一项后面点击更多（三个点） , 然后点击Redeploy , 最后点击下面的Redeploy&lt;/p>
+&lt;p>进入 Deployments , 然后在任意一项后面点击更多（三个点） , 然后点击 Redeploy , 最后点击下面的 Redeploy&lt;/p>
 &lt;p>访问 Vercel 分配的域名，如果环境配置正确，可以看到 “Twikoo 云函数运行正常” 的提示&lt;/p>
+&lt;p>因为 vercel.app 域名已经被中国政府屏蔽，大陆用户无法评论。不过没关系，在 twikoo-api &amp;gt; settings &amp;gt; domains 添加自定义域名可解决&lt;/p>
 &lt;h3 id="配置到博客">配置到博客&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -43,10 +44,10 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">provider&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">twikoo&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">twikoo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">envId&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://twikoo.vercel.app/&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">envId&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">&amp;lt;你的域名或vercel分配的域名&amp;gt;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>部署成功后点右下角↘️的齿轮⚙️图标，设置管理密码&lt;/p>
+&lt;/div>&lt;p>部署成功后点右下角 ↘️ 的齿轮 ⚙️ 图标，设置管理密码&lt;/p>
 &lt;h3 id="更新">更新&lt;/h3>
 &lt;p>管理页面提示：Client version: 1.5.11， Server version: 1.6.16， 请参考 &lt;a class="link" href="https://twikoo.js.org/quick-start.html#%e7%89%88%e6%9c%ac%e6%9b%b4%e6%96%b0" target="_blank" rel="noopener"
 >版本更新&lt;/a>
@@ -57,7 +58,7 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 进行升级&lt;/p>
-&lt;p>在 twikoo.html 里把引入的js文件版本修改到1.6.16&lt;/p>
+&lt;p>在 twikoo.html 里把引入的 js 文件版本修改到 1.6.16&lt;/p>
 &lt;h2 id="disqus">Disqus&lt;/h2>
 &lt;p>选择 Disqus 是因为 Hugo 内置了它的模板，同时它对迁移的支持较好，本身功能非常齐全，比较遗憾的是从 2015 年开始被墙了&lt;/p>
 &lt;p>参考 &lt;a class="link" href="https://gohugo.io/content-management/comments/" target="_blank" rel="noopener"
@@ -78,7 +79,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-注册并登录账号，添加站点（选择I want to install Disqus on my site）&lt;/p>
+注册并登录账号，添加站点（选择 I want to install Disqus on my site）&lt;/p>
 &lt;p>输入你想要的 Website Name，用作插入 config 文件的名字，后期可以在 Disqus -&amp;gt; Setting -&amp;gt; General 下查看和修改&lt;/p>
 &lt;p>在 Configure Disqus for Your Site 页面输入 Website URL，要输入完整的地址，比如如果像我一样使用的是 GitHub Pages ，就要加上 &lt;code>https://&lt;/code> 的协议名；&lt;/p>
 &lt;p>选择 Category，点击 Create Site 完成注册&lt;/p>
@@ -111,7 +112,7 @@ fill="currentColor">
 &lt;h2 id="相关参考">相关参考&lt;/h2>
 &lt;p>&lt;font size="2">感谢前人的耕耘和分享，希望本文也能给你带来一些帮助 ❤️&lt;/font>&lt;/p>
 &lt;p>&lt;a class="link" href="https://thirdshire.com/post/twikoo-tutorial/" target="_blank" rel="noopener"
->在静态博客里添加Twikoo评论系统，并配置邮箱和TG通知&lt;/a>
+>在静态博客里添加 Twikoo 评论系统，并配置邮箱和 TG 通知&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
 &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
@@ -129,7 +130,7 @@ fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
 &lt;p>&lt;a class="link" href="https://juejin.cn/post/6844903905910849550" target="_blank" rel="noopener"
->Disqus评论框改造工程-实现 Disqus 代理的 Serverless 服务&lt;/a>
+>Disqus 评论框改造工程-实现 Disqus 代理的 Serverless 服务&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
 &lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
