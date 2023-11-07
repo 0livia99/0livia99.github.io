@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/tags/tech/</link><description>Recent content in tech on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Sun, 05 Nov 2023 23:55:30 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Figma</title><link>https://0livia99.github.io/p/figma/</link><pubDate>Sun, 05 Nov 2023 23:55:30 +0800</pubDate><guid>https://0livia99.github.io/p/figma/</guid><description>&lt;h2 id="cheat-sheet">cheat sheet&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tech on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/tags/tech/</link><description>Recent content in tech on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Sun, 05 Nov 2023 23:55:30 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Figma</title><link>https://0livia99.github.io/2023/figma/</link><pubDate>Sun, 05 Nov 2023 23:55:30 +0800</pubDate><guid>https://0livia99.github.io/2023/figma/</guid><description>&lt;h2 id="cheat-sheet">cheat sheet&lt;/h2>
 &lt;p>space 移动画布&lt;/p>
 &lt;p>control + 中键滚轮 缩放画布&lt;/p>
 &lt;p>右上角显示当前画布百分比&lt;/p>
@@ -44,7 +44,7 @@
 &lt;p>option 以矩形中心为基准&lt;/p>
 &lt;p>shift 画正方形&lt;/p>
 &lt;h2 id="蒙板">蒙板&lt;/h2>
-&lt;p>把图层重叠-选中-在顶部居中的位置点击 Use as mask&lt;/p></description></item><item><title>iTerm2 配置</title><link>https://0livia99.github.io/p/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://0livia99.github.io/p/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
+&lt;p>把图层重叠-选中-在顶部居中的位置点击 Use as mask&lt;/p></description></item><item><title>iTerm2 配置</title><link>https://0livia99.github.io/2023/iterm2/</link><pubDate>Tue, 18 Jul 2023 18:41:59 +0800</pubDate><guid>https://0livia99.github.io/2023/iterm2/</guid><description>&lt;p>SSH 远程连接配置&lt;/p>
 &lt;p>创建登录脚本 &lt;code>/.ssh/remote-login-vps.sh&lt;/code>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#!/usr/bin/expect
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="nb">set&lt;/span> timeout &lt;span class="m">30&lt;/span>
@@ -61,7 +61,7 @@
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202307181916887.webp"
 loading="lazy"
 alt="image (1)"
->&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://0livia99.github.io/p/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://0livia99.github.io/p/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
+>&lt;/p></description></item><item><title>网络通信过程 + Vmess搭建</title><link>https://0livia99.github.io/2023/about-dns-principle-and-vpn/</link><pubDate>Sun, 16 Jul 2023 21:31:10 +0800</pubDate><guid>https://0livia99.github.io/2023/about-dns-principle-and-vpn/</guid><description>&lt;h2 id="网络通信的基本过程">网络通信的基本过程&lt;/h2>
 &lt;blockquote>
 &lt;p>设计出层级结构。出去时不断加码，加信息，加标签，到达时，不断解码，减信息，解包&lt;/p>
 &lt;/blockquote>
@@ -289,7 +289,7 @@ xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/p>
-&lt;p>[编译、配置 nginx,使 V2ray,Xray,Trojan,博客网站等共用 443 端口](&lt;/p></description></item><item><title>SQL 入门</title><link>https://0livia99.github.io/p/sql/</link><pubDate>Thu, 29 Jun 2023 19:13:22 +0800</pubDate><guid>https://0livia99.github.io/p/sql/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
+&lt;p>[编译、配置 nginx,使 V2ray,Xray,Trojan,博客网站等共用 443 端口](&lt;/p></description></item><item><title>SQL 入门</title><link>https://0livia99.github.io/2023/sql/</link><pubDate>Thu, 29 Jun 2023 19:13:22 +0800</pubDate><guid>https://0livia99.github.io/2023/sql/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">DATABASE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">test&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">创建数据库&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">TABLE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t1&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">body&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">varchar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">100&lt;/span>&lt;span class="p">));&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">创建表&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="err">记得使用\&lt;/span>&lt;span class="n">c命令切换数据库&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">CREATE&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">USER&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">test&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">WITH&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">PASSWORD&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Test#1357&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">#&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">创建用户&lt;/span>&lt;span class="w">
@@ -413,7 +413,7 @@ fill="currentColor">
 &lt;h3 id="round列名-精度">ROUND(列名, 精度)&lt;/h3>
 &lt;p>字段舍入为指定的小树位数&lt;/p>
 &lt;h3 id="nowsysdate">NOW/SYSDATE&lt;/h3>
-&lt;p>获取当前日期时间&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://0livia99.github.io/p/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://0livia99.github.io/p/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
+&lt;p>获取当前日期时间&lt;/p></description></item><item><title>初遇 PostgreSQL</title><link>https://0livia99.github.io/2023/postgresql/</link><pubDate>Mon, 26 Jun 2023 11:21:32 +0800</pubDate><guid>https://0livia99.github.io/2023/postgresql/</guid><description>&lt;p>以现有 Pleroma 数据库为基础学习 postgreSQL&lt;/p>
 &lt;h2 id="本地安装-pg">本地安装 PG&lt;/h2>
 &lt;h3 id="用-homebrew-安装">用 Homebrew 安装&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">brew install postgresql@13
@@ -745,7 +745,7 @@ alt="image"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">d&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="n">tablename&lt;/span>&lt;span class="p">}&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">查看指定表&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">SHOW&lt;/span> &lt;span class="n">data_directory&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">查看数据目录&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">\&lt;/span>&lt;span class="n">q&lt;/span> &lt;span class="o">#&lt;/span> &lt;span class="err">退出交互查询模式&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Nginx</title><link>https://0livia99.github.io/p/nginx-memos/</link><pubDate>Tue, 11 Apr 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/p/nginx-memos/</guid><description>&lt;h2 id="nginx">Nginx&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Nginx</title><link>https://0livia99.github.io/2023/nginx-memos/</link><pubDate>Tue, 11 Apr 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/2023/nginx-memos/</guid><description>&lt;h2 id="nginx">Nginx&lt;/h2>
 &lt;h3 id="几个重要的nginx文件和目录">几个重要的Nginx文件和目录&lt;/h3>
 &lt;h4 id="网站内容">网站内容&lt;/h4>
 &lt;ul>
@@ -767,7 +767,7 @@ alt="image"
 &lt;ul>
 &lt;li>&lt;code>/var/log/nginx/access.log&lt;/code>：如无其他设置，此文件记录了每一次的网页服务请求。&lt;/li>
 &lt;li>&lt;code>/var/log/nginx/error.log&lt;/code>：Nginx错误请求记录文件。&lt;/li>
-&lt;/ul></description></item><item><title>博客域名设置</title><link>https://0livia99.github.io/p/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://0livia99.github.io/p/domain/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;/ul></description></item><item><title>博客域名设置</title><link>https://0livia99.github.io/2022/domain/</link><pubDate>Sat, 22 Oct 2022 22:27:40 +0800</pubDate><guid>https://0livia99.github.io/2022/domain/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="设置步骤">设置步骤&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -896,7 +896,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://0livia99.github.io/p/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/p/picture-bed/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;/p></description></item><item><title>Hugo | 给博客配置图床</title><link>https://0livia99.github.io/2022/picture-bed/</link><pubDate>Fri, 21 Oct 2022 23:29:38 +0800</pubDate><guid>https://0livia99.github.io/2022/picture-bed/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;h2 id="安装-picgo">安装 PicGo&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">brew install picgo --cask
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="创建-github-图床仓库">创建 GitHub 图床仓库&lt;/h2>
@@ -999,7 +999,7 @@ fill="currentColor">
 &amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-comment-system-disqusjs/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;/div></description></item><item><title>Hugo | 给博客添加评论系统</title><link>https://0livia99.github.io/2022/hugo-comment-system-disqusjs/</link><pubDate>Fri, 14 Oct 2022 19:12:42 +0800</pubDate><guid>https://0livia99.github.io/2022/hugo-comment-system-disqusjs/</guid><description>&lt;!-- raw HTML omitted -->
 &lt;p>Update：用过 Cataus、Disqus，Cataus 和同名主题配合起来很可爱，用了一段时间 Disqus 后对它的 UI 不太满意，再加上强制登录比较恼人，就换成象友推荐的 Twikoo 试试&lt;/p>
 &lt;h2 id="twikoo">Twikoo&lt;/h2>
 &lt;h3 id="设置数据库-mongodb">设置数据库 MongoDB&lt;/h3>
@@ -1150,7 +1150,7 @@ xmlns="http://www.w3.org/2000/svg">
 &lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
 fill="currentColor">
 &lt;/svg>&lt;/span>
-&lt;/p></description></item><item><title>Hugo | Front Matter</title><link>https://0livia99.github.io/p/hugo-front-matter/</link><pubDate>Wed, 12 Oct 2022 20:08:18 +0800</pubDate><guid>https://0livia99.github.io/p/hugo-front-matter/</guid><description>&lt;h2 id="什么是-front-matter">什么是 Front Matter&lt;/h2>
+&lt;/p></description></item><item><title>Hugo | Front Matter</title><link>https://0livia99.github.io/2022/hugo-front-matter/</link><pubDate>Wed, 12 Oct 2022 20:08:18 +0800</pubDate><guid>https://0livia99.github.io/2022/hugo-front-matter/</guid><description>&lt;h2 id="什么是-front-matter">什么是 Front Matter&lt;/h2>
 &lt;p>是指 .md 文件最上面的这一部分内容&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">---
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">title: xxxxxx
