@@ -57,9 +57,312 @@ allow="encrypted-media">&lt;/iframe>
 &lt;p>总结 1️⃣ 我不是皮克斯“和稀泥 and then 大团圆”的受众 2️⃣ 不看好被收购后没有宫崎骏的吉卜力 3️⃣ 有的音乐剧出名但不一定适合我&lt;/p>
 &lt;h3 id="books">Books&lt;/h3>
 &lt;p>&lt;strong>《黄油：一部丰富的历史》&lt;/strong>&lt;/p>
+&lt;div class="db-card">
+&lt;div class="db-card-subject">
+&lt;div class="db-card-post">
+&lt;img
+loading="lazy"
+decoding="async"
+referrerpolicy="no-referrer"
+src="https://neodb.social/media/book/2021/11/283f29cb06-4086-4d48-a608-bc6a7f87fb35.jpg"
+/>
+&lt;/div>
+&lt;div class="db-card-content">
+&lt;div class="db-card-title">
+&lt;a href="https://neodb.social/book/1Ii7krTcfE9ZaqTkrWLxqU%28%e6%9d%a1%e7%9b%ae%e9%93%be%e6%8e%a5%29" class="cute" target="_blank" rel="noreferrer"
+>黄油&lt;/a
+>
+&lt;/div>
+&lt;div class="db-orig_title">
+&lt;a href="https://neodb.social/book/1Ii7krTcfE9ZaqTkrWLxqU%28%e6%9d%a1%e7%9b%ae%e9%93%be%e6%8e%a5%29" class="cute" target="_blank" rel="noreferrer"
+>BUTTER:A Rich History&lt;/a
+>
+&lt;/div>
+&lt;div class="db-card-author-translator">
+[[美]伊莱恩·科斯罗瓦]&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 译者：[赵祖华]
+&lt;/div>
+&lt;div class="db-card-publish">
+出品方：&amp;nbsp;&amp;nbsp;文化发展出版社
+&lt;/div>
+&lt;div class="db-card-isbn">ISBN:&amp;nbsp;&amp;nbsp;9787514227659&lt;/div>
+&lt;div class="rating">
+&lt;span class="allstardark"
+>&lt;span
+class="allstarlight"
+style="width:0%"
+>&lt;/span>&lt;/span
+>&lt;span class="rating_nums">0&lt;/span>
+&lt;/div>
+&lt;div class="db-card-abstract">黄油是最古老的人工食物之一，从碧绿的牧草转变成金色的黄油，这个过程在数百年间的变化如同黄油的美味一样，让人心醉神迷。不止于餐桌，黄油的身世与远离厨房和乳品厂的许多事件紧密交织，从精神与药物的需求，到开疆拓土的工业革命，再到20世纪人造黄油生产者与无脂狂热者的针锋相对，黄油独一无二的历史反映了我们的口腹之欲，也展现出人类的雄心壮志。
+此外，本书作者伊莱恩·科斯罗瓦还提供了在家中制作和使用各种黄油的方...&lt;/div>
+&lt;/div>
+&lt;div class="db-card-cate">book&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.db-card {
+margin: 2.5rem 3rem;
+background: var(--card-background);
+border-radius: 7px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.db-card-subject {
+display: flex;
+align-items: flex-start;
+line-height: 1.6;
+padding: 12px;
+position: relative;
+}
+.dark .db-card {
+background: var(--card-background);
+}
+.db-card-content {
+flex: 1 1 auto;
+}
+.db-card-post {
+width: 9.6rem;
+margin-right: 15px;
+display: flex;
+flex: 0 0 auto;
+}
+.db-card-title {
+font-size: 14px;
+color: var(--card-text-color-main);
+}
+.db-orig_title,
+.db-card-author-translator,
+.db-card-publish,
+.db-card-isbn {
+font-size: 12px;
+color: var(--card-text-color-main);
+}
+.db-card-isbn {
+margin-bottom: 10px;
+}
+.db-card-title a {
+text-decoration: none !important;
+}
+.db-card-abstract,
+.db-card-comment {
+font-size: 10px;
+overflow: scroll;
+max-height: 10rem;
+color: var(--card-text-color-main);
+}
+.db-card-cate {
+position: absolute;
+top: 0;
+right: 0;
+background: #f99b01;
+padding: 1px 8px;
+font-size: small;
+font-style: italic;
+border-radius: 0 8px 0 8px;
+text-transform: capitalize;
+}
+.db-card-post img {
+width: 9.6rem !important;
+border-radius: 4px;
+-o-object-fit: cover;
+object-fit: cover;
+}
+.rating {
+margin: 0 0 5px;
+font-size: 13px;
+line-height: 1;
+display: flex;
+align-items: center;
+}
+.rating .allstardark {
+position: relative;
+color: #f99b01;
+height: 16px;
+width: 80px;
+background-size: auto 100%;
+margin-right: 8px;
+background-repeat: repeat;
+background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6TTY2NC44IDU2MS42bDM2LjEgMjEwLjNMNTEyIDY3Mi43IDMyMy4xIDc3MmwzNi4xLTIxMC4zLTE1Mi44LTE0OUw0MTcuNiAzODIgNTEyIDE5MC43IDYwNi40IDM4MmwyMTEuMiAzMC43LTE1Mi44IDE0OC45eiIgZmlsbD0iI2Y5OWIwMSIvPjwvc3ZnPg==);
+}
+.rating .allstarlight {
+position: absolute;
+left: 0;
+color: #f99b01;
+height: 16px;
+overflow: hidden;
+background-size: auto 100%;
+background-repeat: repeat;
+background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6IiBmaWxsPSIjZjk5YjAxIi8+PC9zdmc+);
+}
+@media (max-width: 550px) {
+.db-card {
+margin: 0.8rem 1rem;
+}
+.db-card-comment {
+display: none;
+}
+.db-card-cate {
+font-size: 10px;
+}
+}
+&lt;/style>
 &lt;p>推荐，似乎这种以食物为切入点讲历史的书都挺有意思&lt;/p>
 &lt;p>&lt;strong>《银河系边缘的小失常》&lt;/strong>&lt;/p>
 &lt;p>无厘头短篇，看晕了刚好快速入睡 zzzZZZZzZ&lt;/p>
+&lt;div class="db-card">
+&lt;div class="db-card-subject">
+&lt;div class="db-card-post">
+&lt;img
+loading="lazy"
+decoding="async"
+referrerpolicy="no-referrer"
+src="https://neodb.social/media/book/2021/09/1529d11838-57d9-47f3-9b63-989295154902.jpg"
+/>
+&lt;/div>
+&lt;div class="db-card-content">
+&lt;div class="db-card-title">
+&lt;a href="https://neodb.social/book/51bFn01lYsM5uXnOJ9WM3P%28%e6%9d%a1%e7%9b%ae%e9%93%be%e6%8e%a5%29" class="cute" target="_blank" rel="noreferrer"
+>人类简史&lt;/a
+>
+&lt;/div>
+&lt;div class="db-orig_title">
+&lt;a href="https://neodb.social/book/51bFn01lYsM5uXnOJ9WM3P%28%e6%9d%a1%e7%9b%ae%e9%93%be%e6%8e%a5%29" class="cute" target="_blank" rel="noreferrer"
+>A brief history of humankind&lt;/a
+>
+&lt;/div>
+&lt;div class="db-card-author-translator">
+[[以色列] 尤瓦尔·赫拉利]&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 译者：[林俊宏]
+&lt;/div>
+&lt;div class="db-card-publish">
+出品方：&amp;nbsp;&amp;nbsp;中信出版社
+&lt;/div>
+&lt;div class="db-card-isbn">ISBN:&amp;nbsp;&amp;nbsp;9787508647357&lt;/div>
+&lt;div class="rating">
+&lt;span class="allstardark"
+>&lt;span
+class="allstarlight"
+style="width:87%"
+>&lt;/span>&lt;/span
+>&lt;span class="rating_nums">8.7&lt;/span>
+&lt;/div>
+&lt;div class="db-card-abstract">十万年前，地球上至少有六种不同的人
+但今日，世界舞台为什么只剩下了我们自己？
+从只能啃食虎狼吃剩的残骨的猿人，到跃居食物链顶端的智人，
+从雪维洞穴壁上的原始人手印，到阿姆斯壮踩上月球的脚印，
+从认知革命、农业革命，到科学革命、生物科技革命，
+我们如何登上世界舞台成为万物之灵的？
+从公元前1776年的《汉摩拉比法典》，到1776年的美国独立宣言，
+从帝国主义、资本主义，到自由主义、消费主义，
+从兽欲...&lt;/div>
+&lt;/div>
+&lt;div class="db-card-cate">book&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.db-card {
+margin: 2.5rem 3rem;
+background: var(--card-background);
+border-radius: 7px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.db-card-subject {
+display: flex;
+align-items: flex-start;
+line-height: 1.6;
+padding: 12px;
+position: relative;
+}
+.dark .db-card {
+background: var(--card-background);
+}
+.db-card-content {
+flex: 1 1 auto;
+}
+.db-card-post {
+width: 9.6rem;
+margin-right: 15px;
+display: flex;
+flex: 0 0 auto;
+}
+.db-card-title {
+font-size: 14px;
+color: var(--card-text-color-main);
+}
+.db-orig_title,
+.db-card-author-translator,
+.db-card-publish,
+.db-card-isbn {
+font-size: 12px;
+color: var(--card-text-color-main);
+}
+.db-card-isbn {
+margin-bottom: 10px;
+}
+.db-card-title a {
+text-decoration: none !important;
+}
+.db-card-abstract,
+.db-card-comment {
+font-size: 10px;
+overflow: scroll;
+max-height: 10rem;
+color: var(--card-text-color-main);
+}
+.db-card-cate {
+position: absolute;
+top: 0;
+right: 0;
+background: #f99b01;
+padding: 1px 8px;
+font-size: small;
+font-style: italic;
+border-radius: 0 8px 0 8px;
+text-transform: capitalize;
+}
+.db-card-post img {
+width: 9.6rem !important;
+border-radius: 4px;
+-o-object-fit: cover;
+object-fit: cover;
+}
+.rating {
+margin: 0 0 5px;
+font-size: 13px;
+line-height: 1;
+display: flex;
+align-items: center;
+}
+.rating .allstardark {
+position: relative;
+color: #f99b01;
+height: 16px;
+width: 80px;
+background-size: auto 100%;
+margin-right: 8px;
+background-repeat: repeat;
+background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6TTY2NC44IDU2MS42bDM2LjEgMjEwLjNMNTEyIDY3Mi43IDMyMy4xIDc3MmwzNi4xLTIxMC4zLTE1Mi44LTE0OUw0MTcuNiAzODIgNTEyIDE5MC43IDYwNi40IDM4MmwyMTEuMiAzMC43LTE1Mi44IDE0OC45eiIgZmlsbD0iI2Y5OWIwMSIvPjwvc3ZnPg==);
+}
+.rating .allstarlight {
+position: absolute;
+left: 0;
+color: #f99b01;
+height: 16px;
+overflow: hidden;
+background-size: auto 100%;
+background-repeat: repeat;
+background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6IiBmaWxsPSIjZjk5YjAxIi8+PC9zdmc+);
+}
+@media (max-width: 550px) {
+.db-card {
+margin: 0.8rem 1rem;
+}
+.db-card-comment {
+display: none;
+}
+.db-card-cate {
+font-size: 10px;
+}
+}
+&lt;/style>
 &lt;p>&lt;strong>《人类简史》&lt;/strong>&lt;/p>
 &lt;p>讲故事的力量，故事萌芽后势不可挡，能阻止它的是另一个故事&lt;/p>
 &lt;p>&lt;strong>《台北人》&lt;/strong>&lt;/p>
