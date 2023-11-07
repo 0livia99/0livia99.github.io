@@ -1,4 +1,808 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/hugo/</link><description>Recent content in Hugo on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Thu, 11 May 2023 21:28:27 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo｜自定义 hugo-theme-Stack</title><link>https://0livia99.github.io/2023/custom-hugo-theme-stack/</link><pubDate>Thu, 11 May 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/2023/custom-hugo-theme-stack/</guid><description>&lt;p>支持 mermaid，新增导航栏，添加一些小功能，微调样式&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Rubber Duck's Bizarre Adventure</title><link>https://0livia99.github.io/categories/hugo/</link><description>Recent content in Hugo on Rubber Duck's Bizarre Adventure</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>0livia</copyright><lastBuildDate>Tue, 07 Nov 2023 21:28:27 +0800</lastBuildDate><atom:link href="https://0livia99.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo｜ShortCuts 短代码</title><link>https://0livia99.github.io/2023/hugo-shortcuts/</link><pubDate>Tue, 07 Nov 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/2023/hugo-shortcuts/</guid><description>&lt;p>最花里胡哨的一集，也许需要 ⚠️光敏性癫痫预警&lt;/p>
+&lt;h2 id="效果">效果&lt;/h2>
+&lt;div class="db-card">
+&lt;div class="db-card-subject">
+&lt;div class="db-card-post">
+&lt;img
+loading="lazy"
+decoding="async"
+referrerpolicy="no-referrer"
+src="https://neodb.social/media/book/2022/11/26ca863604-212b-4499-b616-cb57740e2386.jpg"
+/>
+&lt;/div>
+&lt;div class="db-card-content">
+&lt;div class="db-card-title">
+&lt;a href="https://neodb.social/book/6Wn7wIf31mFcrGN4js0SeY%28%e6%9d%a1%e7%9b%ae%e9%93%be%e6%8e%a5%29" class="cute" target="_blank" rel="noreferrer"
+>如果我们无法以光速前行&lt;/a
+>
+&lt;/div>
+&lt;div class="rating">
+&lt;span class="allstardark"
+>&lt;span
+class="allstarlight"
+style="width:81%"
+>&lt;/span>&lt;/span
+>&lt;span class="rating_nums">8.1&lt;/span>
+&lt;/div>
+&lt;div class="db-card-abstract">当死亡不再代表永别，人生将如何？
+《如果我们无法以光速前行》是金草叶的第一部短篇小说集，也是她写作生涯的耀眼开幕。这部科幻小说集在韩国一共累计了25万册销量，被《朝鲜日报》《东亚日报》《文化日报》《京乡新闻》等多家权威媒体选为2019年年度图书，获韩国文化艺术委员会、韩国出版文化协会推荐，并入选韩国文学评论家协会评出的“我们时代的小说50部”。金草叶以一己之力，打破了“韩国科幻小说是否存在读者”的质疑。
+七个故事，直面社会矛盾，又遥指广阔宇宙。不识情爱的乌托邦、难以前往的远宇宙、跳入大海的宇航员……金草叶将现实的痛楚、想象的宏大以及理解的力量编织在一起，用科幻寻找现实生活的答案——“虽然会痛苦但也更幸福”。
+这颗星球上的每一个人，都是多数派，也是少数派。如果我们曾遭遇坎坷，那么就一定会在金草叶的故事里被理解，被包容。
+★ 收录作品 ★
+▷《光谱》正被《蜂鸟》导演金宝拉改编为电影
+我把外婆的遗骸送往宇宙，还给了那些星星。
+▷《共生假说》英文版发表于科幻杂志《克拉克世界》
+不要离开。不要带走那个美丽的世界。在我长大之后，也请留在我身边。
+▷《如果我们无法以光速前行》获第2届韩国科幻文学奖中短篇佳作奖、提名第52届日本星云赏海外短篇奖
+可以允许我的最后一次航行吗？
+▷《情绪实体》
+有时候，一些人需要的并不是有意义的眼泪，而是眼泪本身。
+▷《馆内遗失》获第2届韩国科幻文学奖中短篇大奖
+妈妈有索引。在一个意想不到的地方。
+▷《关于我的太空英雄》提名第52届日本星云赏海外短篇奖
+在景没有飞向宇宙，而是跳进了大海。
+▷《朝圣者们为什么不再回来》
+我们很幸福，却对幸福的起源一无所知。
+★ 书评荐语 ★
+读过金草叶的作品之后，像是有人伸出长长的胳膊，啪嗒按下了不曾察觉的开关，一切都发生了改变。金草叶的小说会让人哭泣，沉浸于全新的感觉，向前迈进。作品赋予我们在充满悲伤的宇宙中也能前行的勇气。过去几年间，我一直在不自觉地等待着金草叶。遇到可以全心全意喜欢的新作者，我感到非常激动。称赞卓越并不难，见证这个精彩的开始却是一种罕见的幸运。——郑世朗（小说家）
+在流畅的故事叙述中发现了我所认为的小说家的眼与口，很难相信这是年轻作者的首部作品。从观察的视角到提出的问题，都令人印象深刻。——金衍洙（小说家）
+我们可以在金草叶的小说世界中，看到那些被历史遗忘的以女性、残疾人、移民、未婚妈妈为代表的少数群体的细微感受，以及她们逐渐寻找到自己的正确位置的美丽风景。——印雅瑛（文学评论家）
+如同雷·布拉德伯里一般，文字充满诗意。——小岛秀夫（游戏制作人）
+以丰富奇丽的科幻创想为经，绵长幽远的人性咏叹为纬，金草叶编织出了让我们沉浸其中回味无穷的想象世界。——刘慈欣（科幻作家）
+金草叶的出现令人惊艳，彻底改变了我对韩国科幻的认知。她善于提出深刻的问题，并将精妙的解谜过程建立在坚实的科学与人文基础之上。这是一流科幻作家才具备的能力。——姚海军（科幻世界杂志社副总编辑）
+韩国文学因为出现了金草叶而更加多彩、自信、充满希望。——禾禾（读者）
+在金草叶七分悲伤三分温暖的世界里，即使无法理解一切基本假说，也能对那份担忧与怜悯感同身受，特别是读到《馆内遗失》的最后，一下子从冷酷的未来世界，被拉回更加冷漠的现实世界，难以言说的闷堵。哪怕我们无法以光速前行，我想我也已经在金草叶的小说里，见过了所有光的色彩。——Ark000（读者）
+就我不多的韩国文学阅读量来说，两个作家改变了我对韩国文学的看法，一个是李沧东，一个是金草叶。不是宏大的故事，有着某种市民气和科幻母体兼容得很好的一面，又带着女性对生活的经验，提出了浪漫的问题。个人最喜欢表题作和《共生假说》。——Adrian（读者）&lt;/div>
+&lt;/div>
+&lt;div class="db-card-cate">book&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.db-card {
+margin: 2.5rem 3rem;
+background: var(--card-background);
+border-radius: 7px;
+box-shadow: 0 6px 10px 0 #00000053;
+}
+.db-card-subject {
+display: flex;
+align-items: flex-start;
+line-height: 1.6;
+padding: 12px;
+position: relative;
+}
+.dark .db-card {
+background: var(--card-background);
+}
+.db-card-content {
+flex: 1 1 auto;
+}
+.db-card-post {
+width: 9.6rem;
+margin-right: 15px;
+display: flex;
+flex: 0 0 auto;
+}
+.db-card-title {
+margin-bottom: 3px;
+font-size: 14px;
+color: var(--card-text-color-main);
+}
+.db-card-title a {
+text-decoration: none !important;
+}
+.db-card-abstract,
+.db-card-comment {
+font-size: 14px;
+overflow: scroll;
+max-height: 10rem;
+color: var(--card-text-color-main);
+}
+.db-card-cate {
+position: absolute;
+top: 0;
+right: 0;
+background: #f99b01;
+padding: 1px 8px;
+font-size: small;
+font-style: italic;
+border-radius: 0 8px 0 8px;
+text-transform: capitalize;
+}
+.db-card-post img {
+width: 9.6rem !important;
+border-radius: 4px;
+-o-object-fit: cover;
+object-fit: cover;
+}
+.rating {
+margin: 0 0 5px;
+font-size: 13px;
+line-height: 1;
+display: flex;
+align-items: center;
+}
+.rating .allstardark {
+position: relative;
+color: #f99b01;
+height: 16px;
+width: 80px;
+background-size: auto 100%;
+margin-right: 8px;
+background-repeat: repeat;
+background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6TTY2NC44IDU2MS42bDM2LjEgMjEwLjNMNTEyIDY3Mi43IDMyMy4xIDc3MmwzNi4xLTIxMC4zLTE1Mi44LTE0OUw0MTcuNiAzODIgNTEyIDE5MC43IDYwNi40IDM4MmwyMTEuMiAzMC43LTE1Mi44IDE0OC45eiIgZmlsbD0iI2Y5OWIwMSIvPjwvc3ZnPg==);
+}
+.rating .allstarlight {
+position: absolute;
+left: 0;
+color: #f99b01;
+height: 16px;
+overflow: hidden;
+background-size: auto 100%;
+background-repeat: repeat;
+background-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik05MDguMSAzNTMuMWwtMjUzLjktMzYuOUw1NDAuNyA4Ni4xYy0zLjEtNi4zLTguMi0xMS40LTE0LjUtMTQuNS0xNS44LTcuOC0zNS0xLjMtNDIuOSAxNC41TDM2OS44IDMxNi4ybC0yNTMuOSAzNi45Yy03IDEtMTMuNCA0LjMtMTguMyA5LjMtMTIuMyAxMi43LTEyLjEgMzIuOS42IDQ1LjNsMTgzLjcgMTc5LjEtNDMuNCAyNTIuOWMtMS4yIDYuOS0uMSAxNC4xIDMuMiAyMC4zIDguMiAxNS42IDI3LjYgMjEuNyA0My4yIDEzLjRMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6IiBmaWxsPSIjZjk5YjAxIi8+PC9zdmc+);
+}
+@media (max-width: 550px) {
+.db-card {
+margin: 0.8rem 1rem;
+}
+.db-card-comment {
+display: none;
+}
+}
+&lt;/style>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1cw411c7Zi"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;div class="notice notice-warning" >
+&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 576 512" fill="hsl(0, 65%, 65%)">&lt;path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zM124 296c-6.6.0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h264c6.6.0 12 5.4 12 12v56c0 6.6-5.4 12-12 12H124z"/>&lt;/svg>&lt;/div>&lt;p>Warning：需要双括号。&lt;/p>&lt;/div>
+&lt;style>
+.notice {
+position: relative;
+padding: 1em 1em 1em 2.5em;
+margin-bottom: 1em;
+border-radius: 4px;
+p:last-child {
+margin-bottom: 0;
+}
+.notice-title {
+position: absolute;
+left: 0.8em;
+.notice-icon {
+width: 1.2em;
+height: 1.2em;
+}
+}
+&amp;.notice-warning {
+background: hsla(0, 65%, 65%, 0.15);
+border-left: 5px solid hsl(0, 65%, 65%);
+.notice-title {
+color: hsl(0, 65%, 65%);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 80%, 70%, 0.15);
+border-left: 5px solid hsl(30, 80%, 70%);
+.notice-title {
+color: hsl(30, 80%, 70%);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 65%, 65%, 0.15);
+border-left: 5px solid hsl(200, 65%, 65%);
+.notice-title {
+color: hsl(200, 65%, 65%);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 65%, 65%, 0.15);
+border-left: 5px solid hsl(140, 65%, 65%);
+.notice-title {
+color: hsl(140, 65%, 65%);
+}
+}
+}
+[data-theme='dark'] .notice {
+&amp;.notice-warning {
+background: hsla(0, 25%, 35%, 0.15);
+border-left: 5px solid hsl(0, 25%, 35%);
+.notice-title {
+color: rgba(224, 108, 108, 0.5);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 25%, 35%, 0.15);
+border-left: 5px solid hsl(30, 25%, 35%);
+.notice-title {
+color: rgba(240, 178, 117, 0.5);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 25%, 35%, 0.15);
+border-left: 5px solid hsl(200, 25%, 35%);
+.notice-title {
+color: rgba(108, 185, 224, 0.5);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 25%, 35%, 0.15);
+border-left: 5px solid hsl(140, 25%, 35%);
+.notice-title {
+color: rgba(108, 224, 147, 0.5);
+}
+}
+}
+&lt;/style>
+&lt;div class="notice notice-info" >
+&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="hsl(30, 80%, 70%)">&lt;path d="M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z"/>&lt;/svg>&lt;/div>&lt;p>info：这是一条信息。&lt;/p>&lt;/div>
+&lt;style>
+.notice {
+position: relative;
+padding: 1em 1em 1em 2.5em;
+margin-bottom: 1em;
+border-radius: 4px;
+p:last-child {
+margin-bottom: 0;
+}
+.notice-title {
+position: absolute;
+left: 0.8em;
+.notice-icon {
+width: 1.2em;
+height: 1.2em;
+}
+}
+&amp;.notice-warning {
+background: hsla(0, 65%, 65%, 0.15);
+border-left: 5px solid hsl(0, 65%, 65%);
+.notice-title {
+color: hsl(0, 65%, 65%);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 80%, 70%, 0.15);
+border-left: 5px solid hsl(30, 80%, 70%);
+.notice-title {
+color: hsl(30, 80%, 70%);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 65%, 65%, 0.15);
+border-left: 5px solid hsl(200, 65%, 65%);
+.notice-title {
+color: hsl(200, 65%, 65%);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 65%, 65%, 0.15);
+border-left: 5px solid hsl(140, 65%, 65%);
+.notice-title {
+color: hsl(140, 65%, 65%);
+}
+}
+}
+[data-theme='dark'] .notice {
+&amp;.notice-warning {
+background: hsla(0, 25%, 35%, 0.15);
+border-left: 5px solid hsl(0, 25%, 35%);
+.notice-title {
+color: rgba(224, 108, 108, 0.5);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 25%, 35%, 0.15);
+border-left: 5px solid hsl(30, 25%, 35%);
+.notice-title {
+color: rgba(240, 178, 117, 0.5);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 25%, 35%, 0.15);
+border-left: 5px solid hsl(200, 25%, 35%);
+.notice-title {
+color: rgba(108, 185, 224, 0.5);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 25%, 35%, 0.15);
+border-left: 5px solid hsl(140, 25%, 35%);
+.notice-title {
+color: rgba(108, 224, 147, 0.5);
+}
+}
+}
+&lt;/style>
+&lt;div class="notice notice-note" >
+&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="hsl(200, 65%, 65%)">&lt;path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z"/>&lt;/svg>&lt;/div>&lt;p>note：可以标注一下，但是没必要。&lt;/p>&lt;/div>
+&lt;style>
+.notice {
+position: relative;
+padding: 1em 1em 1em 2.5em;
+margin-bottom: 1em;
+border-radius: 4px;
+p:last-child {
+margin-bottom: 0;
+}
+.notice-title {
+position: absolute;
+left: 0.8em;
+.notice-icon {
+width: 1.2em;
+height: 1.2em;
+}
+}
+&amp;.notice-warning {
+background: hsla(0, 65%, 65%, 0.15);
+border-left: 5px solid hsl(0, 65%, 65%);
+.notice-title {
+color: hsl(0, 65%, 65%);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 80%, 70%, 0.15);
+border-left: 5px solid hsl(30, 80%, 70%);
+.notice-title {
+color: hsl(30, 80%, 70%);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 65%, 65%, 0.15);
+border-left: 5px solid hsl(200, 65%, 65%);
+.notice-title {
+color: hsl(200, 65%, 65%);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 65%, 65%, 0.15);
+border-left: 5px solid hsl(140, 65%, 65%);
+.notice-title {
+color: hsl(140, 65%, 65%);
+}
+}
+}
+[data-theme='dark'] .notice {
+&amp;.notice-warning {
+background: hsla(0, 25%, 35%, 0.15);
+border-left: 5px solid hsl(0, 25%, 35%);
+.notice-title {
+color: rgba(224, 108, 108, 0.5);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 25%, 35%, 0.15);
+border-left: 5px solid hsl(30, 25%, 35%);
+.notice-title {
+color: rgba(240, 178, 117, 0.5);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 25%, 35%, 0.15);
+border-left: 5px solid hsl(200, 25%, 35%);
+.notice-title {
+color: rgba(108, 185, 224, 0.5);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 25%, 35%, 0.15);
+border-left: 5px solid hsl(140, 25%, 35%);
+.notice-title {
+color: rgba(108, 224, 147, 0.5);
+}
+}
+}
+&lt;/style>
+&lt;div class="notice notice-tip" >
+&lt;div class="notice-title">&lt;svg xmlns="http://www.w3.org/2000/svg" class="icon notice-icon" viewBox="0 0 512 512" fill="hsl(140, 65%, 65%)">&lt;path d="M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z"/>&lt;/svg>&lt;/div>&lt;p>tip：在示例里胡说八道会使观看者会心一笑。&lt;/p>&lt;/div>
+&lt;style>
+.notice {
+position: relative;
+padding: 1em 1em 1em 2.5em;
+margin-bottom: 1em;
+border-radius: 4px;
+p:last-child {
+margin-bottom: 0;
+}
+.notice-title {
+position: absolute;
+left: 0.8em;
+.notice-icon {
+width: 1.2em;
+height: 1.2em;
+}
+}
+&amp;.notice-warning {
+background: hsla(0, 65%, 65%, 0.15);
+border-left: 5px solid hsl(0, 65%, 65%);
+.notice-title {
+color: hsl(0, 65%, 65%);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 80%, 70%, 0.15);
+border-left: 5px solid hsl(30, 80%, 70%);
+.notice-title {
+color: hsl(30, 80%, 70%);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 65%, 65%, 0.15);
+border-left: 5px solid hsl(200, 65%, 65%);
+.notice-title {
+color: hsl(200, 65%, 65%);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 65%, 65%, 0.15);
+border-left: 5px solid hsl(140, 65%, 65%);
+.notice-title {
+color: hsl(140, 65%, 65%);
+}
+}
+}
+[data-theme='dark'] .notice {
+&amp;.notice-warning {
+background: hsla(0, 25%, 35%, 0.15);
+border-left: 5px solid hsl(0, 25%, 35%);
+.notice-title {
+color: rgba(224, 108, 108, 0.5);
+}
+}
+&amp;.notice-info {
+background: hsla(30, 25%, 35%, 0.15);
+border-left: 5px solid hsl(30, 25%, 35%);
+.notice-title {
+color: rgba(240, 178, 117, 0.5);
+}
+}
+&amp;.notice-note {
+background: hsla(200, 25%, 35%, 0.15);
+border-left: 5px solid hsl(200, 25%, 35%);
+.notice-title {
+color: rgba(108, 185, 224, 0.5);
+}
+}
+&amp;.notice-tip {
+background: hsla(140, 25%, 35%, 0.15);
+border-left: 5px solid hsl(140, 25%, 35%);
+.notice-title {
+color: rgba(108, 224, 147, 0.5);
+}
+}
+}
+&lt;/style>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/EF8C4v7JIbA"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;blockquote>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p>&lt;span class="cite">&lt;span>― &lt;/span>&lt;span>A famous person, &lt;/span>&lt;a href="https://en.wikipedia.org/wiki/Book">&lt;cite>The book they wrote&lt;/cite>&lt;/a>&lt;/span>&lt;/blockquote>
+&lt;div class="timeline__row">
+&lt;div class="timeline__time">
+&lt;div class="timeline__time">2023-09-10&lt;/div>
+&lt;div class="timeline__split-line">&lt;/div>
+&lt;/div>
+&lt;div class="timeline__content">
+&lt;div class="timeline__tags">
+&lt;span class="timeline__tag">&lt;/span>
+&lt;/div>
+&lt;a href="">
+&lt;div class="timeline__title">&lt;/div>
+&lt;/a>
+&lt;div class="timeline__description">&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: #5d5d5d;
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: '';
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: var(--article-font-size);
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: #5d5d5d;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #c581da;
+border-color: #c581da;
+color: #ffffff;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #707070;
+border-color: #707070;
+color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: var(--article-font-size);
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style>
+&lt;div class="timeline__row">
+&lt;div class="timeline__time">
+&lt;div class="timeline__time">2023-09-10&lt;/div>
+&lt;div class="timeline__split-line">&lt;/div>
+&lt;/div>
+&lt;div class="timeline__content">
+&lt;div class="timeline__tags">
+&lt;span class="timeline__tag">&lt;/span>
+&lt;/div>
+&lt;a href="">
+&lt;div class="timeline__title">&lt;/div>
+&lt;/a>
+&lt;div class="timeline__description">&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: #5d5d5d;
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: '';
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: var(--article-font-size);
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: #5d5d5d;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #c581da;
+border-color: #c581da;
+color: #ffffff;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #707070;
+border-color: #707070;
+color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: var(--article-font-size);
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style>
+&lt;h2 id="使用方法">使用方法&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">{\{&amp;lt; neodb &amp;#34;https://neodb.social/book/6Wn7wIf31mFcrGN4js0SeY(条目链接)&amp;#34; &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; bilibili BV1cw411c7Zi 1 &amp;gt;}\} //BV号，分p数；使用记得双括号
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; notice notice-warning &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Warning：需要双括号。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; /notice &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; notice notice-info &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">info：这是一条信息。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; /notice &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; notice notice-note &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">note：可以标注一下，但是没必要。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; /notice &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; notice notice-tip &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tip：在示例里胡说八道会使观看者会心一笑。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; /notice &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; youtube EF8C4v7JIbA&amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; quote author=&amp;#34;A famous person&amp;#34; source=&amp;#34;The book they wrote&amp;#34; url=&amp;#34;https://en.wikipedia.org/wiki/Book&amp;#34;&amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; /quote &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{\{&amp;lt; timeline date=&amp;#34;2023-09-10&amp;#34; title=&amp;#34;&amp;#34; description=&amp;#34;&amp;#34; tags=&amp;#34;&amp;#34; url=&amp;#34;&amp;#34; &amp;gt;}\}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="参考--致谢">参考 &amp;amp; 致谢&lt;/h2>
+&lt;p>&lt;a class="link" href="https://www.sleepymoon.cyou/2023/hugo-shortcodes/" target="_blank" rel="noopener"
+>Hugo | 在 Stack 主题上可行的短代码们&lt;/a>
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/p>
+&lt;p>&lt;a class="link" href="https://stack.jimmycai.com/writing/shortcodes" target="_blank" rel="noopener"
+>https://stack.jimmycai.com/writing/shortcodes&lt;/a>
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
+xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/p></description></item><item><title>Hugo｜自定义 hugo-theme-Stack</title><link>https://0livia99.github.io/2023/custom-hugo-theme-stack/</link><pubDate>Thu, 11 May 2023 21:28:27 +0800</pubDate><guid>https://0livia99.github.io/2023/custom-hugo-theme-stack/</guid><description>&lt;p>支持 mermaid，新增导航栏，添加一些小功能，微调样式&lt;/p>
 &lt;h2 id="修改标题样式">修改标题样式&lt;/h2>
 &lt;p>H2 和 H3 区分度不大&lt;/p>
 &lt;p>&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main//blog202306221803644.webp"
@@ -442,6 +1246,7 @@ height="80px"
 frameborder="0"
 allowtransparency="true"
 allow="encrypted-media">&lt;/iframe>
+&lt;h3 id="neodb卡片">NeoDB卡片&lt;/h3>
 &lt;h2 id="添加-apple-touch-icon">添加 apple-touch-icon&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl"># /layouts/_default/baseof.html
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
@@ -553,8 +1358,8 @@ allow="encrypted-media">&lt;/iframe>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="mi">100&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})()&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="有兴趣了做做">有兴趣了做做&lt;/h2>
+&lt;p>✅ 博客时间轴&lt;/p>
 &lt;ul>
-&lt;li>博客时间轴&lt;/li>
 &lt;li>导航页&lt;/li>
 &lt;/ul>
 &lt;h2 id="参考--致谢">参考 &amp;amp; 致谢&lt;/h2>
