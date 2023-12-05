@@ -222,7 +222,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">gem install php_serialize
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">gem install miro
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">gem install mysql2
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Miniflux 搭建 + RSSHub 使用</title><link>https://0livia99.github.io/2022/miniflux/</link><pubDate>Mon, 05 Dec 2022 20:19:15 +0800</pubDate><guid>https://0livia99.github.io/2022/miniflux/</guid><description>&lt;p>其实docker 搭miniflux 很简单，搬迁服务器后记录一下2nd搭，留个记录&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Miniflux 搭建 + RSSHub 使用</title><link>https://0livia99.github.io/2022/miniflux/</link><pubDate>Thu, 01 Dec 2022 20:19:15 +0800</pubDate><guid>https://0livia99.github.io/2022/miniflux/</guid><description>&lt;p>其实docker 搭miniflux 很简单，搬迁服务器后记录一下2nd搭，留个记录&lt;/p>
 &lt;h2 id="miniflux">Miniflux&lt;/h2>
 &lt;p>创建 miniflux 文件夹&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">mkdir miniflux
