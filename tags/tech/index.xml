@@ -1175,7 +1175,7 @@ fill="currentColor">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">date: {{ .Date }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">draft: false
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># 随机匹配一张图片
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">image: https://picsum.photos/800/600.webp?random={{ substr (md5 (.Date)) 4 8 }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">image: https://picsum.photos/seed/picsum/800/600.webp?random={{ substr (md5 (.Date)) 4 8 }}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">categories: [&amp;#34;Tutorials&amp;#34;]
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tags: [&amp;#34;Hugo&amp;#34;,&amp;#34;tech&amp;#34;]
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">keywords: [&amp;#34;tutorials&amp;#34;, &amp;#34;Hugo&amp;#34;, &amp;#34;mac&amp;#34;,&amp;#34;tech&amp;#34;]

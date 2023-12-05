@@ -31,7 +31,13 @@
 </span></span></code></pre></div><h2 id=更改终端颜色>更改终端颜色</h2><p>进入 /etc/profile 文件，<code>vim /etc/profile</code>，修改命令行提示符的颜色设置</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl><span class=nv>PS1</span><span class=o>=</span><span class=s1>&#39;[\[\e[32m\]\u\[\e[0m\]\[\e[35m\]@\[\e[0m\]\[\e[33m\]\h\[\e[0m\]\[\e[36m\] \W\[\e[0m\]]\$ &#39;</span>
 </span></span><span class=line><span class=cl><span class=c1># 更新文件</span>
 </span></span><span class=line><span class=cl><span class=nb>source</span> /etc/profile
-</span></span></code></pre></div><p>解释：PS1变量代表&lt;用户名+主机名+路径名（长路径）+ $></p><h2 id=添加-swap>添加 SWAP</h2><p>确认是否已存在 SWAP</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>free -m
+</span></span></code></pre></div><p>解释：PS1变量代表&lt;用户名+主机名+路径名（长路径）+ $></p><p>问题：每次登录都要重新 <code>source /etc/profile</code> 让环境变量生效</p><p>解决：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>vim ~/.bashrc
+</span></span><span class=line><span class=cl><span class=c1># 添加如下代码</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>if</span> <span class=o>[</span> -f /etc/profile <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=cl>. /etc/profile
+</span></span><span class=line><span class=cl><span class=k>fi</span>
+</span></span></code></pre></div><h2 id=添加-swap>添加 SWAP</h2><p>确认是否已存在 SWAP</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>free -m
 </span></span></code></pre></div><p>有 Swap 项而且 total 列不为零，说明 Swap 已存在，可以自行修改分区容量，参考：为 <a class=link href=https://www.vvave.net/archives/add-swap-and-repartition-swap-for-linux.html target=_blank rel=noopener>Linux 添加 swap 分区或修改 swap 分区容量</a>
 <span style=white-space:nowrap><svg width=".7em" height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg"><path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z" fill="currentcolor"/><path d="M19 19H5V5h7l-2-2H5c-1.103.0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103.0 2-.897 2-2v-5l-2-2v7z" fill="currentcolor"/></span></p><h2 id=防火墙>防火墙</h2><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>ufw allow OpenSSH
 </span></span><span class=line><span class=cl>ufw <span class=nb>enable</span>
