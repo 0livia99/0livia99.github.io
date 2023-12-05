@@ -31,7 +31,7 @@
 </span></span></code></pre></div><h2 id=更改终端颜色>更改终端颜色</h2><p>进入 /etc/profile 文件，<code>vim /etc/profile</code>，修改命令行提示符的颜色设置</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl><span class=nv>PS1</span><span class=o>=</span><span class=s1>&#39;[\[\e[32m\]\u\[\e[0m\]\[\e[35m\]@\[\e[0m\]\[\e[33m\]\h\[\e[0m\]\[\e[36m\] \W\[\e[0m\]]\$ &#39;</span>
 </span></span><span class=line><span class=cl><span class=c1># 更新文件</span>
 </span></span><span class=line><span class=cl><span class=nb>source</span> /etc/profile
-</span></span></code></pre></div><p>解释：PS1变量代表&lt;用户名+主机名+路径名（长路径）+ $></p><p>问题：每次登录都要重新 <code>source /etc/profile</code> 让环境变量生效</p><p>解决：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>vim ~/.bashrc
+</span></span></code></pre></div><p>解释：PS1变量代表&lt;用户名+主机名+路径名（长路径）+ $></p><p>🤔❓问题：每次登录都要重新 <code>source /etc/profile</code> 让环境变量生效</p><p>💡解决：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>vim ~/.bashrc
 </span></span><span class=line><span class=cl><span class=c1># 添加如下代码</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=k>if</span> <span class=o>[</span> -f /etc/profile <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
