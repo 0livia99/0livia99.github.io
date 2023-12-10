@@ -64,7 +64,7 @@ allow="encrypted-media">&lt;/iframe>
 loading="lazy"
 decoding="async"
 referrerpolicy="no-referrer"
-src="https://neodb.social/media/book/2021/11/283f29cb06-4086-4d48-a608-bc6a7f87fb35.jpg"
+src="https://neodb.social/m/book/2021/11/283f29cb06-4086-4d48-a608-bc6a7f87fb35.jpg"
 />
 &lt;/div>
 &lt;div class="db-card-content">
@@ -214,7 +214,7 @@ font-size: 10px;
 loading="lazy"
 decoding="async"
 referrerpolicy="no-referrer"
-src="https://neodb.social/media/book/2021/09/1529d11838-57d9-47f3-9b63-989295154902.jpg"
+src="https://neodb.social/m/book/2021/09/1529d11838-57d9-47f3-9b63-989295154902.jpg"
 />
 &lt;/div>
 &lt;div class="db-card-content">
