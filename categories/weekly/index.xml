@@ -1076,7 +1076,7 @@ fill="currentColor">
 &lt;p>&lt;strong>幽灵公主：&lt;/strong>&lt;/p>
 &lt;p>非常喜欢，但是以后可能不会像千与千寻那样反复观看，因为它提出了一个让我痛苦的问题，人通过掠夺自然、掠夺同类活着，怎么办？宫崎骏说他想表达“不管怎样，活下去。”我暂时理解不了这种英雄主义，我想让不同阵营不同阶级的人得到平等的死亡结局，把自然还给森林。&lt;/p>
 &lt;p>惊喜是 Ashitaka 是塞尔达 Link 的灵感来源，或者说整部幽灵公主都是旷野之息的灵感来源。看完我就去把林克的海利亚兜帽染红，再穿上英杰服，双向代餐（&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;img src="https://cdn.jsdelivr.net/gh/Falasool/blog-pic-bed@main/blog202311071541992.webp" style="zoom:50%;" />
 &lt;p>那么 Ashitaka 的灵感来源是什么呢，原来阿依努族是他的原型。搜索过程中得知日本并不是单一民族（大和族）国家，日本北部的阿伊努族一直以来都被忽视了。多数人的政府灭绝原住民的文化，已经发生过多少次了，唉&lt;/p>
 &lt;p>一个阿伊努语乐队&lt;/p>
 &lt;iframe src="https://open.spotify.com/embed/track/086ppZC1FRoKI70EW0Uz6K"
@@ -1581,7 +1581,10 @@ allowtransparency="true"
 allow="encrypted-media">&lt;/iframe>
 &lt;p>&lt;strong>咒术回战 S02：&lt;/strong>&lt;/p>
 &lt;p>更新了两集，OP 和 ED 做的真好，ED 因为五条悟和夏油杰画得细长细长的、在微博看到的时候我还以为是哪个画风清新的日本画师制作的同人手书，反复看了两遍之后，几年前对他们那种汹涌的情感复活了，叹气，「人生最骄傲的时候，唯一的朋友自己孤独的决定了死期。」，还有这歌词&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;center>
+僕の善意が壊れてゆく前に&lt;br>
+君に全部告げるべきだった
+&lt;/center>
 &lt;p>一条道走到黑的恶人有他独有的魅力，但夏油杰显然不是，他成为反派的领袖之后仍在咀嚼痛苦和后悔，你知道人绝不能有什么想法吗，人绝不能在屠杀自己的同类、背叛自己的信条之后想：假如当时……&lt;/p>
 &lt;p>叛逃之后他还有机会做一个快活的反派角色，当他开始后悔，黑暗真的降临了。这就像和魔鬼做交易，魔鬼许以梦想的一切，并且什么都不收取，只是他闻到后悔的味道，就会来收割灵魂&lt;/p>
 &lt;h3 id="game">Game&lt;/h3>
@@ -1629,7 +1632,7 @@ fill="currentColor">
 &lt;h3 id="实例维护">实例维护&lt;/h3>
 &lt;p>两周前，因为数据库狂涨，我打算清理一下。尝试了数据库管理工具，在 GUI 的帮助下终于理解了它的结构，发现站长确实能看到很多东西哎……还能看到谁 block 了谁，谁又 mute 了谁。大概学习了一下 SQL 语法之后，我就让 chatGPT 坐在副驾驶上路了！&lt;/p>
 &lt;p>开始我操作的比较谨慎，先删除了 user 表里很多除了 uid 字段其他都为空的用户（这些用户所在实例为真，uid 为假，删了 10k 行哎），黛黛说这是什么漫游机制，我其实没听懂（挠头）。然后删除了几个新闻镜像账号的数据，到这里为止一切 OK。我的最终目的是保留我发布的、和我有互动（favorite、reply、repeat、reaction、bookmark）的 post，此外的嘟文只保留 x 月 x 日之后的&lt;/p>
-&lt;p>接下来我咨询 chatGPT，让它写 SQL 命令然后修改了几次。SELECT 大概看了一眼我就执行了，数据库从 700MB 一下回到了 100MB，很好。问题是我把 x 月 x 日之前自己的 post 删了……哭 &lt;!-- raw HTML omitted --> 。不过我有备份啦，等我搞懂了 pg 会把它们导入回去的。具体请看：&lt;a class="link" href="https://ponder.lol/2023/postgresql/" target="_blank" rel="noopener"
+&lt;p>接下来我咨询 chatGPT，让它写 SQL 命令然后修改了几次。SELECT 大概看了一眼我就执行了，数据库从 700MB 一下回到了 100MB，很好。问题是我把 x 月 x 日之前自己的 post 删了……哭 &lt;img src="https://bucket.alive.bar/cache/custom_emojis/images/000/207/387/original/1eaa83e5fc7adba4.png" alt=":blobcatangel:" style="zoom:25%;" /> 。不过我有备份啦，等我搞懂了 pg 会把它们导入回去的。具体请看：&lt;a class="link" href="https://ponder.lol/2023/postgresql/" target="_blank" rel="noopener"
 >和 PostgreSQL &lt;del>搏斗&lt;/del>被殴打的记录&lt;/a>
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em" height=".7em" viewBox="0 0 21 21"
 xmlns="http://www.w3.org/2000/svg">
